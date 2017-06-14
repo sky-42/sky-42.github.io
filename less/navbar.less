@@ -1,36 +1,42 @@
+.lang{
+	position: fixed;
+	top: 10px;
+	width: 40vw;
+	right: 30vw;
+	text-align: center;
+	font-size: 1.2rem;
+}
+
 .navbar{
 	background-color: @navbar-bg;
-	height: @navbar-height;
+	height: @navbar-height-xs;
 	font-family: 'Lato', sans-serif;
 	font-weight: 400;
 	letter-spacing: .1rem;
 	font-size: .9rem;
+
+	padding: 0;
+	margin: 0;
+}
+
+.navbar-brand{
+	padding: 0;
+	margin: 0;
 }
 
 .navbar-nav {
-	//margin-top: 20px;
-
+	background-color: white;
 	.nav-item {
-		padding: 30px 10px 10px 10px;
-
+		//padding: 30px 10px 10px 10px;
 		.nav-link {
 			text-transform: uppercase;
 			color: @navbar-font;
-
+			padding: 10px 30px 10px 30px; 
 			&:hover {
 				color: @navbar-font-hover;
 			}	
 		}
-
-		
 	}
-}
-
-.navbar-light .navbar-nav .active>.nav-link,
-.navbar-light .navbar-nav .nav-link.active,
-.navbar-light .navbar-nav .nav-link.open,
-.navbar-light .navbar-nav .open>.nav-link {
-	color: @brand-color;
 }
 
 .en.active,
@@ -46,32 +52,105 @@
 	}
 }
 
-.logo {
-	width: 100%;
-	height: @navbar-height;
-	margin: 0;
-	padding: 10px 0 10px 0;
+.navbar-light .navbar-nav .active>.nav-link,
+.navbar-light .navbar-nav .nav-link.active,
+.navbar-light .navbar-nav .nav-link.open,
+.navbar-light .navbar-nav .open>.nav-link {
+	color: @brand-color;
 }
 
-.lang {
-	position: fixed;
-	top: 5px;
-	right: 25px;
-	padding-right: .5rem;
-	cursor: default;
+.logo {
+	height: @navbar-height-xs - 10px;
+	margin: 0;
+	margin: 5px 0 0 20px;
 
-	.active {
+}
+
+.navbar-toggler-right{
+	border: none;
+	margin-top: 5px;
+
+	.navbar-toggler-icon{
+		background-image: url("../img/toggler.svg");
+
+		&:hover{
+			background-image: url("../img/toggler-hover.svg");
+		}
+	}
+	
+
+	&:hover{
 		color: @brand-color;
 	}
 
-	a {
-		color: @navbar-font;
-		display: inline-block;
-		text-decoration: none;
-		font-size: 0.85em;
+	&:focus{
+		outline: 0;
+	}
+}
 
-		&:hover {
-			color: @navbar-font-hover;
+
+
+// Small devices (landscape phones, 576px and up)
+@media (min-width: 576px){
+
+}
+
+//Medium devices (tablets, 768px and up)
+@media (min-width: 768px) {
+	.navbar-nav .nav-item .nav-link{
+		padding: 20px 30px 0 0;
+	}
+
+	.lang {
+		position: fixed;
+		top: 5px;
+		left: auto;
+		right: 25px;
+		width: auto;
+		padding-right: .5rem;
+		cursor: default;
+		font-size: 1rem;
+		.active {
+			color: @brand-color;
+		}
+		a {
+			color: @navbar-font;
+			display: inline-block;
+			text-decoration: none;
+			font-size: 0.85em;
+
+			&:hover {
+				color: @navbar-font-hover;
+			}
 		}
 	}
 }
+
+// Large devices (desktops, 992px and up)
+@media (min-width: 992px) {
+	.navbar{
+		height: @navbar-height;
+	}
+
+	.navbar-nav {
+		background-color: transparent;
+		.nav-link {
+			.nav-item {
+				padding: 0;
+			}
+		}
+	}
+
+	.logo{
+		height: @navbar-height;
+		padding: 10px 0 10px 0;
+	}
+	
+
+	
+}
+
+// Extra large devices (large desktops, 1200px and up)
+@media (min-width: 1200px) {
+
+} 
