@@ -1,0 +1,126 @@
+{
+	"navbar":{
+		"nav1":"About",
+		"nav2":"Pilot",
+		"nav3":"Flights & Prices",
+		"nav4":"Contact",
+		"nav5":"Testimonial",
+		"nav6":"Booking"
+	},
+
+	"landing":{
+		"heading":"we let you dream of flying become true"
+	},
+
+	"about":{
+		"heading":"feel free like a bird",
+		"text":"Sky for two is a tandem paragliding company in the region <a href='https://www.zellamsee-kaprun.com' class='link' target='blank'>Zell am See / Kaprun</a>. Founded in 20.., the goal was to fullfill peoples dream of the free flight and show them our beautiful region from a bird's eye view.",
+		"c1":"",
+		"c2":"",
+		"c3":""
+	},
+
+	"pilot":{
+		"text":"With more than 30 years of paragliding expirience Helli is one of the best pilots in the region and you are in good hands."
+	},
+
+	"flights":{
+		"panorama":{
+			"heading":"Panorama Flight",
+			"duration":"<i class='fa fa-fw fa-clock-o' aria-hidden='true'></i>FLIGHT DURATION: 20 minutes",
+			"altitude":"<i class='fa fa-fw fa-arrows-v' aria-hidden='true'></i>ALTITUDE: 1200m</p>",
+			"book":"Book now"
+		},
+
+		"thermal":{
+			"heading":"Thermal Flight",
+			"duration":"<i class='fa fa-fw fa-clock-o' aria-hidden='true'></i>FLIGHT DURATION: 20 minutes",
+			"altitude":"<i class='fa fa-fw fa-arrows-v' aria-hidden='true'></i>ALTITUDE: 1200m</p>",
+			"book":"Book now"
+		},
+
+		"gift":{
+			"text":"A gift certificate for a Tandem flight is a special present for any occasion. Our gift certificate is availible for the Panorama Flight, Thermal Flight and for our extras.",
+			"book":"Order now"
+		},
+
+		"info":"<i class='fa fa-info-circle' aria-hidden='true' ></i> More Information"
+	},
+
+	"contact":{
+		"phone":"phone",
+		"address":"address",
+		"directions":"<i class='fa fa-road' aria-hidden='true'></i> Directions"
+	},
+
+	"customer":{
+
+		"heading":"what our customers think",
+
+		"c1":{
+			"text":"Quote1",
+			"img-name":"<img src='./img/1.jpg' class='customer-img img-fluid'><span class='customer-info-text'>Masouma Taher</span>"
+		},
+
+		"c2":{
+			"text":"Quote2",
+			"img-name":"<img src='./img/5.jpg' class='customer-img img-fluid'><span class='customer-info-text'>Masouma Taher</span>"
+		},
+
+		"c3":{
+			"text":"Quote3",
+			"img-name":"<img src='./img/4.jpg' class='customer-img img-fluid'><span class='customer-info-text'>Masouma Taher</span>"
+		},
+
+		"social":"You want to share your expirience about your flight with us? We would love to hear from you"
+	},
+
+	"booking":{
+		"mail":"Your e-mail address",
+		"subject":"Subject",
+		"message":"Your message",
+		"send":"<i class='fa fa-paper-plane' aria-hidden='true'></i> Send booking request"
+	},
+
+	"information":{
+
+		"procedure":{
+			"heading":"Procedure",
+			"text1":"After you booked your flight and the pilot confirmed that the weather conditions are flyable,",
+			"text2":"you'll meet with the pilot at the office and you have to fill out a ticket for your flight. Please be punctual, we have a very strict timetable and can't garuante your flight if you are late!",
+			"text3":"After you filled out your ticket, you'll drive with the pilot to the cable-car and get up to the top of the Schmittenhöhe.",
+			"text4":"On top the pilot will check the equiment and gives you a short security briefing. Then you are ready to take off and enjoy the view. The pilot will take pictures and a video of the flight.",
+			"text5":"After your save landing in the field next to the office, we will do the payment of the flight."
+		},
+
+		"price":{
+			"heading":"Prices & Payment",
+			"text1":"Our Prices for the Tandem Flights do not include the price for the cablecar. You can find the current prices <a class='link' target='blank' href='http://www.schmitten.at/de/sommer/tickets-und-preise'>here</a>.",
+			"text2":"We only accept cash at our office."
+		},
+
+		"requirements":{
+			"heading":"Requirements",
+			"p1":"",
+			"p2":"",
+			"p3":""
+		},
+
+		"wyn":{
+			"heading":"Things you need for your flight",
+			"p1":"Solid Shoes",
+			"p2":"Jacket",
+			"p3":"Sun glasses & sun screen",
+			"p4":"good spirit <i class='fa fa-smile-o' aria-hidden='true'></i>"
+		}
+	}
+}
+
+
+
+
+
+
+
+
+

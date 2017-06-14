@@ -1,0 +1,77 @@
+.navbar{
+	background-color: @navbar-bg;
+	height: @navbar-height;
+	font-family: 'Lato', sans-serif;
+	font-weight: 400;
+	letter-spacing: .1rem;
+	font-size: .9rem;
+}
+
+.navbar-nav {
+	//margin-top: 20px;
+
+	.nav-item {
+		padding: 30px 10px 10px 10px;
+
+		.nav-link {
+			text-transform: uppercase;
+			color: @navbar-font;
+
+			&:hover {
+				color: @navbar-font-hover;
+			}	
+		}
+
+		
+	}
+}
+
+.navbar-light .navbar-nav .active>.nav-link,
+.navbar-light .navbar-nav .nav-link.active,
+.navbar-light .navbar-nav .nav-link.open,
+.navbar-light .navbar-nav .open>.nav-link {
+	color: @brand-color;
+}
+
+.en.active,
+.de.active {
+	color: @brand-color !important;
+}
+
+.en,
+.de {
+	&:hover{
+		color: @brand-color !important;
+		cursor: pointer;
+	}
+}
+
+.logo {
+	width: 100%;
+	height: @navbar-height;
+	margin: 0;
+	padding: 10px 0 10px 0;
+}
+
+.lang {
+	position: fixed;
+	top: 5px;
+	right: 25px;
+	padding-right: .5rem;
+	cursor: default;
+
+	.active {
+		color: @brand-color;
+	}
+
+	a {
+		color: @navbar-font;
+		display: inline-block;
+		text-decoration: none;
+		font-size: 0.85em;
+
+		&:hover {
+			color: @navbar-font-hover;
+		}
+	}
+}

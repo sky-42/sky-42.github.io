@@ -1,0 +1,85 @@
+@import "about";
+@import "booking";
+@import "contact";
+@import "customer";
+@import "landing";
+@import "navbar";
+@import "pilot";
+@import "prices";
+@import "information";
+@import "variables";
+@import "footer";
+
+h1,
+h2,
+h3,
+p,
+a {
+  color: @font-color;
+}
+
+.link{
+  color: @brand-color;
+  text-decoration: none;
+
+  &:hover,
+  &:active,
+  &:focus{
+    color: @brand-color;
+    text-decoration: underline;;
+  }
+
+  &:visited{
+    color: @brand-color;
+    text-decoration: none;
+  }
+
+}
+
+.navbar-padding{
+  padding-top: 100px;
+}
+
+.btn-sky-42 {
+  height: 40px;
+  width: 100%;
+  margin-top: 50px;
+  border-radius: 20px;
+  border: 1px solid @font-color;
+  background-color: transparent;
+  color: @font-color;
+  outline: 0;
+
+  .fa {
+    padding-right: 10px;
+  }
+
+  &:hover,
+  &:focus,
+  &:active{
+    color: @brand-color;
+    border-color: @brand-color;
+    background-color: white;
+    outline: 0;
+  }
+
+  &:visited{
+    outline: 0;
+  }
+}
+
+.active{
+  color: @brand-color;
+}
+
+input:required:invalid, input:focus:invalid {
+  border-color: @danger-color;
+}
+
+input:required:valid {
+  border-color: @valid-color !important;
+}
+
+
+
+
