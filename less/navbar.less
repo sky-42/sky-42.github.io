@@ -14,7 +14,6 @@
 	font-weight: 400;
 	letter-spacing: .1rem;
 	font-size: .9rem;
-
 	padding: 0;
 	margin: 0;
 }
@@ -25,13 +24,13 @@
 }
 
 .navbar-nav {
-	background-color: white;
+	background-color: @navbar-bg;
 	.nav-item {
-		//padding: 30px 10px 10px 10px;
 		.nav-link {
 			text-transform: uppercase;
 			color: @navbar-font;
-			padding: 10px 30px 10px 30px; 
+			padding: 10px 0 10px 0;
+			text-align: center;
 			&:hover {
 				color: @navbar-font-hover;
 			}	
@@ -63,7 +62,6 @@
 	height: @navbar-height-xs - 10px;
 	margin: 0;
 	margin: 5px 0 0 20px;
-
 }
 
 .navbar-toggler-right{
@@ -72,13 +70,11 @@
 
 	.navbar-toggler-icon{
 		background-image: url("../img/toggler.svg");
-
 		&:hover{
 			background-image: url("../img/toggler-hover.svg");
 		}
 	}
 	
-
 	&:hover{
 		color: @brand-color;
 	}
@@ -88,8 +84,6 @@
 	}
 }
 
-
-
 // Small devices (landscape phones, 576px and up)
 @media (min-width: 576px){
 
@@ -97,17 +91,20 @@
 
 //Medium devices (tablets, 768px and up)
 @media (min-width: 768px) {
-	.navbar-nav .nav-item .nav-link{
-		padding: 20px 30px 0 0;
-	}
+
+
+	
+}
+
+// Large devices (desktops, 992px and up)
+@media (min-width: 992px) {
 
 	.lang {
 		position: fixed;
 		top: 5px;
 		left: auto;
-		right: 25px;
+		right: 20px;
 		width: auto;
-		padding-right: .5rem;
 		cursor: default;
 		font-size: 1rem;
 		.active {
@@ -124,19 +121,16 @@
 			}
 		}
 	}
-}
 
-// Large devices (desktops, 992px and up)
-@media (min-width: 992px) {
 	.navbar{
 		height: @navbar-height;
 	}
 
 	.navbar-nav {
 		background-color: transparent;
-		.nav-link {
-			.nav-item {
-				padding: 0;
+		.nav-item {
+			.nav-link {
+				padding: 20px 20px 0 0;
 			}
 		}
 	}
