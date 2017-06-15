@@ -14,6 +14,7 @@
 	border-top: 1px solid @font-color;
 	padding-top: 10px;
 	color: @font-color;
+	font-size: 1.4rem;
 }
 
 .pilot-text-container{
@@ -29,4 +30,24 @@
 	display: flex;
 	justify-content: center; /* align horizontal */
 	align-items: flex-end; /* align vertical */
+}
+
+// Small devices (landscape phones, 576px and up)
+@media (min-width: 576px){
+	.pilot-heading {
+		font-size: 1.6rem;
+	}
+}
+
+//Medium devices (tablets, 768px and up)
+@media (min-width: 768px) {
+	.pilot-heading {
+		font-size: 1.8rem;
+	}
+}
+
+@media (min-width: 992px) {
+	.pilot-heading {
+		font-size: 2rem;
+	}
 }

@@ -9,6 +9,7 @@
   padding: 50px 0 30px 0;
   text-transform: uppercase;
   font-family: Lato, sans-serif;
+  font-size: 1.4rem;
 }
 .about-text {
   font-size: 1.2rem;
@@ -18,6 +19,21 @@
 }
 .about-icon-text {
   padding-top: 20px;
+}
+@media (min-width: 576px) {
+  .about-heading {
+    font-size: 1.6rem;
+  }
+}
+@media (min-width: 768px) {
+  .about-heading {
+    font-size: 1.8rem;
+  }
+}
+@media (min-width: 992px) {
+  .about-heading {
+    font-size: 2rem;
+  }
 }
 #booking {
   min-height: 100vh;
@@ -346,6 +362,7 @@
   border-top: 1px solid #282828;
   padding-top: 10px;
   color: #282828;
+  font-size: 1.4rem;
 }
 .pilot-text-container {
   height: 100%;
@@ -361,6 +378,21 @@
   /* align horizontal */
   align-items: flex-end;
   /* align vertical */
+}
+@media (min-width: 576px) {
+  .pilot-heading {
+    font-size: 1.6rem;
+  }
+}
+@media (min-width: 768px) {
+  .pilot-heading {
+    font-size: 1.8rem;
+  }
+}
+@media (min-width: 992px) {
+  .pilot-heading {
+    font-size: 2rem;
+  }
 }
 #prices {
   min-height: 100vh;
