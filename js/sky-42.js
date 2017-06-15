@@ -34,6 +34,12 @@ $('.nav-link').on('click',function() {
 
     var userLang = navigator.language || navigator.userLanguage; 
 
+    if (userLang == "de"){
+      changeToDE();
+    }else{
+      changeToEN();
+    }
+
     //init i18next
     var option = {
       lng               : userLang,
