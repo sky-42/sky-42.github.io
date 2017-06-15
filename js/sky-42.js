@@ -10,6 +10,12 @@ $(function() {
     });
 });
 
+//close menu onclick for mobile
+$('.nav-link').on('click',function() {
+  $('.navbar-collapse').collapse('hide');
+});
+
+
 //i18next
     function translate(){
       $(".navbar").i18n();

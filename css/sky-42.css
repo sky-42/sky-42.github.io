@@ -54,6 +54,7 @@
 }
 .customer-info {
   margin-top: 30px;
+  margin-bottom: 20px;
 }
 .customer-info-text {
   padding-left: 20px;
@@ -91,7 +92,7 @@
   margin-bottom: -1em;
 }
 .customer-social {
-  margin-top: 40px;
+  margin-top: 20px;
 }
 .customer-icon {
   color: #282828;
@@ -140,7 +141,7 @@
   color: rgba(0, 0, 0, 0.8);
   font-family: 'Lato', sans-serif;
   font-weight: 900;
-  font-size: 1.8rem !important;
+  font-size: 1.2rem !important;
   text-transform: uppercase;
   letter-spacing: 0.3rem;
 }
@@ -175,6 +176,16 @@
 .landing-button:active i {
   color: #009BD7;
   transition: all .5s ease;
+}
+@media (min-width: 576px) {
+  .landing-text h1 {
+    font-size: 1.6rem !important;
+  }
+}
+@media (min-width: 768px) {
+  .landing-text h1 {
+    font-size: 2rem !important;
+  }
 }
 @media (min-width: 992px) {
   .video-container {
@@ -236,12 +247,14 @@
 }
 .navbar-nav {
   background-color: rgba(255, 255, 255, 0.97);
+  margin-top: 5px;
 }
 .navbar-nav .nav-item .nav-link {
   text-transform: uppercase;
   color: #000000;
   padding: 10px 0 10px 0;
   text-align: center;
+  font-size: 1.2rem;
 }
 .navbar-nav .nav-item .nav-link:hover {
   color: #009BD7;
@@ -309,8 +322,10 @@
   }
   .navbar-nav {
     background-color: transparent;
+    margin-top: 0;
   }
   .navbar-nav .nav-item .nav-link {
+    font-size: 1rem;
     padding: 20px 20px 0 0;
   }
   .logo {
@@ -552,9 +567,6 @@ a {
   color: #009BD7;
   text-decoration: none;
 }
-.navbar-padding {
-  padding-top: 100px;
-}
 .btn-sky-42 {
   height: 40px;
   width: 100%;
@@ -588,4 +600,7 @@ input:focus:invalid {
 }
 input:required:valid {
   border-color: #67bf72 !important;
+}
+.navbar-padding {
+  padding-top: 100px;
 }
