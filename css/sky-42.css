@@ -41,6 +41,14 @@
 .btn-booking {
   margin-bottom: 20px;
 }
+.booking-logo {
+  margin-top: 30vh;
+  margin-bottom: 10vh;
+}
+.booking-text {
+  font-size: 1.4rem;
+  font-family: 'Lato';
+}
 #contact {
   min-height: 100vh;
   font-family: Lato, sans-serif;
@@ -663,5 +671,10 @@ input:required:valid {
 @media (min-width: 768px) {
   .heading-mobile {
     font-size: 1.8rem;
+  }
+}
+@media (min-width: 992px) {
+  .heading-mobile {
+    color: #282828;
   }
 }
