@@ -647,6 +647,10 @@ input:required:valid {
   text-transform: uppercase;
   font-family: 'Lato';
   letter-spacing: 0.2rem;
+  color: #a5abb4;
+}
+.heading-mobile-pad {
+  padding-bottom: 60px;
 }
 @media (min-width: 576px) {
   .heading-mobile {
