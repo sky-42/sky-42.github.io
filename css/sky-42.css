@@ -641,3 +641,20 @@ input:required:valid {
 .navbar-padding {
   padding-top: 100px;
 }
+.heading-mobile {
+  font-size: 1.4rem;
+  text-align: center;
+  text-transform: uppercase;
+  font-family: 'Lato';
+  letter-spacing: 0.2rem;
+}
+@media (min-width: 576px) {
+  .heading-mobile {
+    font-size: 1.6rem;
+  }
+}
+@media (min-width: 768px) {
+  .heading-mobile {
+    font-size: 1.8rem;
+  }
+}

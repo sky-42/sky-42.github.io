@@ -10,13 +10,16 @@ $(function() {
     });
 });
 
+//bootstrap 4 alpha 0.6 - issue 22256 workaround
+$('.navbar-toggler').on('click',function(){
+  $('.navbar-collapse').slideToggle(0);
+});
 //close menu onclick for mobile
 $('.nav-link').on('click',function() {
-  $('.navbar-collapse').collapse('hide');
+  $('.navbar-collapse').slideToggle(0);
 });
 
-
-//i18next
+//translation
     function translate(){
       $(".navbar").i18n();
       $("#landing").i18n();
