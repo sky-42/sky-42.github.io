@@ -38,6 +38,10 @@
 #booking {
   min-height: 100vh;
 }
+.booking-heading {
+  padding-top: 20px;
+  padding-bottom: 40px;
+}
 .btn-booking {
   margin-bottom: 20px;
 }
@@ -593,6 +597,10 @@
   position: absolute;
   right: 20px;
   margin-top: -70px;
+}
+html,
+body {
+  font-family: 'Lato', san-serif;
 }
 h1,
 h2,

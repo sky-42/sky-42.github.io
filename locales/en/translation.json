@@ -59,13 +59,13 @@
 		"heading":"what our customers think",
 
 		"c3":{
-			"text":"Quote3",
-			"img-name":"<img src='./img/1.jpg' class='customer-img img-fluid'><span class='customer-info-text'>Masouma Taher</span>"
+			"text":"Really enjoyed my first time paragliding , very experienced pilot, could not ask for a better experience, highly recommend them, thanks again",
+			"img-name":"<img src='./img/ken.jpg' class='customer-img img-fluid'><span class='customer-info-text'>Ken</span>"
 		},
 
 		"c2":{
-			"text":"The best adventure and the best thing that I've ever did in my life. It was amaazing and the view was fantastic. The pilots are professional and they are really kind. Big thanks to the pilots",
-			"img-name":"<img src='./img/masouma.jpg' class='customer-img img-fluid'><span class='customer-info-text'>Masouma Taher</span>"
+			"text":"It was my first experience in paragliding but it won't be the last. Flying over kaprun on a sunny day was a great deal with the best pilot. I strongly recommend you to try this adventure, you will love it.",
+			"img-name":"<img src='./img/kahlid.jpg' class='customer-img img-fluid'><span class='customer-info-text'>Khalid</span>"
 		},
 
 		"c1":{
@@ -77,7 +77,9 @@
 	},
 
 	"booking":{
+		"heading":"Book your flight now",
 		"mail":"Your e-mail address",
+		"phone":"Your Phone number",
 		"subject":"Product",
 		"message":"Your message",
 		"send":"<i class='fa fa-paper-plane' aria-hidden='true'></i> Send booking request"

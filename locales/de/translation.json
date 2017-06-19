@@ -13,11 +13,11 @@
 	},
 
 	"about":{
-		"heading":"fühl dich frei wie ein vogel",
-		"text":"Sky for two ist ein Tandem Paragleit Unternehmen in der Region <a href='https://www.zellamsee-kaprun.com' class='link' target='blank'>Zell am See / Kaprun</a>. Gegründet wurde sky for two im Jahr 20.. um Leuten den Traum vom Fliegen wahr werden zu lassen und ihnen unsere wunderschöne Region aus der Vogelperspektive zu zeigen.",
+		"heading":"Fühl dich frei wie ein Vogel",
+		"text":"Sky for two ist ein Tandem-Paragleit Unternehmen in der Region <a href='https://www.zellamsee-kaprun.com' class='link' target='blank'>Zell am See / Kaprun</a>. Gegründet wurde sky for two im Jahr 20.. um Leuten den Traum vom Fliegen wahr werden zu lassen und ihnen unsere wunderschöne Region aus der Vogelperspektive zu zeigen.",
 		"c1":"Genieß die beste Aussicht der Region",
-		"c2":"Sei in guten Händen, dank den besten piloten und neuesten equipment",
-		"c3":"Wir geben unser bestes das du eine gute zeit hast"
+		"c2":"Sei in guten Händen, dank der neuesten Ausrüstung und top ausgebildeten Piloten",
+		"c3":"Wir geben unser bestes damit Sie eine gute Zeit hast"
 	},
 
 	"pilot":{
@@ -45,7 +45,7 @@
 			"book":"Jetzt Bestellen"
 		},
 
-		"info":"<i class='fa fa-info-circle' aria-hidden='true' ></i> Mehr Informationen"
+		"info":"<i class='fa fa-info-circle' aria-hidden='true'></i> Mehr Informationen"
 	},
 
 	"contact":{
@@ -56,28 +56,30 @@
 
 	"customer":{
 
-		"heading":"was unsere Kunden denken",
+		"heading":"Was unsere Kunden denken",
 
 		"c1":{
 			"text":"Mit unter eines der geilsten Erlebnisse ever!! Es ist alles super gelaufen und die Piloten sind absolute Vollprofis! Nur weiter zu empfehlen. Alles einfacher als man denkt, probiert es selber aus!",
-			"img-name":"<img src='./img/marcel.jpg' class='customer-img img-fluid'><span class='customer-info-text'>Marcel Bacher</span>"
+			"img-name":"<img src='./img/marcel.jpg' class='customer-img img-fluid'><span class='customer-info-text'>Marcel</span>"
 		},
 
 		"c2":{
 			"text":"Wow! Das war ein tolles Erlebnis! Professionelle Ausführung von der Terminabstimmung über die Flugvorbereitung bis hin zur Durchführung des Tandemfluges! Souveräner und erfahrener Pilot!",
-			"img-name":"<img src='./img/angelika.jpg' class='customer-img img-fluid'><span class='customer-info-text'>Angelika Schmidt</span>"
+			"img-name":"<img src='./img/angelika.jpg' class='customer-img img-fluid'><span class='customer-info-text'>Angelika</span>"
 		},
 
 		"c3":{
-			"text":"Ich hatte eine tolle Zeit Paragliding und würde es wieder tun. Priorität ist die Sicherheit, die Wetterlage und Verständnis für ein unglaubliches Flug. Es ist so viel Spaß mit dem Eigentümer, der hat über 20 Jahre Erfahrung.",
-			"img-name":"<img src='./img/clifford.jpg' class='customer-img img-fluid'><span class='customer-info-text'>Clifford T</span>"
+			"text":"Einfach ein tolles Erlebnis für meine Tochter und mich. Auch wenn es mir nach der Spirale ein wenig flau in der Magengegend war, meine Tochter war hier deutlich robuster. Ein super Team und in jeder Situation Herr der Dinge.",
+			"img-name":"<img src='./img/heiko.jpg' class='customer-img img-fluid'><span class='customer-info-text'>Heiko</span>"
 		},
 
 		"social":"Du willst deine Flugerfahrung mit uns teilen. Wir würden uns freuen von dir zu hören"
 	},
 
 	"booking":{
+		"heading":"Buche jetzt deinen Flug",
 		"mail":"Deine e-mail Adresse",
+		"phone":"Deine Telefonnummer",
 		"subject":"Produkt",
 		"message":"Deine Nachricht",
 		"send":"<i class='fa fa-paper-plane' aria-hidden='true'></i> Buchungsanfrage senden"

@@ -413,9 +413,9 @@
       </div>
       <div class="row">
         <div class="col-10 offset-1 text-center">
-          <a href="https://www.facebook.com/Sky42com" target="blank"><i class="fa fa-facebook customer-icon" aria-hidden="true"></i></a>
-          <a href="" target="blank"><i class="fa fa-instagram customer-icon" aria-hidden="true"></i></a>
-          <a href="https://www.tripadvisor.at/Attraction_Review-g939797-d8618179-Reviews-Sky_42_com-Piesendorf_Austrian_Alps.html" target="blank"><i class="fa fa-tripadvisor customer-icon" aria-hidden="true"></i></a>
+          <a href="https://www.facebook.com/Sky42com" target="blank"><i class="fa fa-facebook customer-icon fa-fw" aria-hidden="true"></i></a>
+          <a href="" target="blank"><i class="fa fa-instagram customer-icon fa-fw" aria-hidden="true"></i></a>
+          <a href="https://www.tripadvisor.at/Attraction_Review-g939797-d8618179-Reviews-Sky_42_com-Piesendorf_Austrian_Alps.html" target="blank"><i class="fa fa-tripadvisor customer-icon fa-fw" aria-hidden="true"></i></a>
         </div>
       </div>
     </section>
@@ -428,24 +428,38 @@
             <h2 class="heading-mobile heading-mobile-pad" data-i18n="navbar.nav6">Booking</h2>
           </div>
         </div>
+
+        <div class="row">
+          <div class="col-12">
+            <h2 class="booking-heading heading-mobile hidden-md-down" data-i18n="booking.heading">Book your flight now</h2>
+          </div>
+        </div>
+
         <div class="row">
           <div class="col-12">
             <form id="contactform" method="POST">
               <div class="form-group row">
                 <div class="col-lg-8 offset-lg-2 col-xs-12">
-                  <label for="example-text-input" class="col-form-label" data-i18n="booking.mail">Your e-mail</label>
+
+                  <label for="mail-input" class="col-form-label" data-i18n="booking.mail">Your e-mail</label>
                   <input class="form-control" type="email" name="_replyto">
+
+                  <label for="phone-input" class="col-form-label" data-i18n="booking.phone">Your Phone number</label>
+                  <input class="form-control" type="tel" pattern="[\+]\d{2}[\(]\d{2}[\)]\d{4}[\-]\d{4}">
+
                   <label for="example-text-input" class="col-form-label" data-i18n="booking.subject">Prodcut</label>
 
                   <select class="custom-select w-100">
-                    <option selected data-i18n="flights.panorama.heading">Panorama Flight</option>
-                    <option data-i18n="flights.thermal.heading">Thermal Flight</option>
-                    <option data-i18n="flights.gift.heading">Gift Certificate</option>
+                    <optgroup class="optgroup">
+                      <option selected data-i18n="flights.panorama.heading">Panorama Flight</option>
+                      <option data-i18n="flights.thermal.heading">Thermal Flight</option>
+                      <option data-i18n="flights.gift.heading">Gift Certificate</option>
+                    </optgroup>
                   </select>
 
                   <!--<input class="form-control" type="text" name="subject">-->
                   <label for="example-text-input" class="col-form-label" data-i18n="booking.message">Your message</label>
-                  <textarea class="form-control" form="usrform" name="name" rows="7"></textarea>
+                  <textarea class="form-control" form="usrform" name="name" rows="4"></textarea>
                   <input type="hidden" name="_next" value="./thanks.html"/>
                   <input type="text" name="_gotcha" style="display:none" />
                   <button class="btn btn-sky-42 btn-booking" data-i18n="[html]booking.send"><i class="fa fa-paper-plane" aria-hidden="true"></i> Send booking request</button>
