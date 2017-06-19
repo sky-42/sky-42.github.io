@@ -9,15 +9,15 @@
 	},
 
 	"landing":{
-		"heading":"we let you dream of flying become true"
+		"heading":"we let your dream of flying come true"
 	},
 
 	"about":{
 		"heading":"feel free like a bird",
 		"text":"Sky for two is a tandem paragliding company in the region <a href='https://www.zellamsee-kaprun.com' class='link' target='blank'>Zell am See / Kaprun</a>. Founded in 20.., the goal was to fullfill peoples dream of the free flight and show them our beautiful region from a bird's eye view.",
-		"c1":"",
-		"c2":"",
-		"c3":""
+		"c1":"Get the best view of the region",
+		"c2":"Be in good hands, thanks to the best pilots and the latest gear",
+		"c3":"We do our best that you have a good time"
 	},
 
 	"pilot":{
@@ -27,20 +27,21 @@
 	"flights":{
 		"panorama":{
 			"heading":"Panorama Flight",
-			"duration":"<i class='fa fa-fw fa-clock-o' aria-hidden='true'></i>FLIGHT DURATION: 20 minutes",
-			"altitude":"<i class='fa fa-fw fa-arrows-v' aria-hidden='true'></i>ALTITUDE: 1200m</p>",
+			"duration":"<i class='fa fa-fw fa-clock-o' aria-hidden='true'></i>Flight duration: 20 minutes",
+			"altitude":"<i class='fa fa-fw fa-arrows-v' aria-hidden='true'></i>Altitude: 1200m</p>",
 			"book":"Book now"
 		},
 
 		"thermal":{
 			"heading":"Thermal Flight",
-			"duration":"<i class='fa fa-fw fa-clock-o' aria-hidden='true'></i>FLIGHT DURATION: 20 minutes",
-			"altitude":"<i class='fa fa-fw fa-arrows-v' aria-hidden='true'></i>ALTITUDE: 1200m</p>",
+			"duration":"<i class='fa fa-fw fa-clock-o' aria-hidden='true'></i>Flight duration: 45-60 minutes",
+			"altitude":"<i class='fa fa-fw fa-arrows-v' aria-hidden='true'></i>Altitude: 1500m</p>",
 			"book":"Book now"
 		},
 
 		"gift":{
-			"text":"A gift certificate for a Tandem flight is a special present for any occasion. Our gift certificate is availible for the Panorama Flight, Thermal Flight and for our extras.",
+			"name":"Gift-Certificate",
+			"desc":"A gift certificate for a Tandem flight is a special present for any occasion. Our gift certificate is availible for the Panorama Flight, Thermal Flight and for our extras.",
 			"book":"Order now"
 		},
 
@@ -57,19 +58,19 @@
 
 		"heading":"what our customers think",
 
-		"c1":{
-			"text":"Quote1",
+		"c3":{
+			"text":"Quote3",
 			"img-name":"<img src='./img/1.jpg' class='customer-img img-fluid'><span class='customer-info-text'>Masouma Taher</span>"
 		},
 
 		"c2":{
-			"text":"Quote2",
-			"img-name":"<img src='./img/5.jpg' class='customer-img img-fluid'><span class='customer-info-text'>Masouma Taher</span>"
+			"text":"The best adventure and the best thing that I've ever did in my life. It was amaazing and the view was fantastic. The pilots are professional and they are really kind. Big thanks to the pilots",
+			"img-name":"<img src='./img/masouma.jpg' class='customer-img img-fluid'><span class='customer-info-text'>Masouma Taher</span>"
 		},
 
-		"c3":{
-			"text":"Quote3",
-			"img-name":"<img src='./img/4.jpg' class='customer-img img-fluid'><span class='customer-info-text'>Masouma Taher</span>"
+		"c1":{
+			"text":"We enjoyed the flying so much! The view was awesome and we're never gonna forget this! Thanks for this amazing experience!",
+			"img-name":"<img src='./img/kim_rene.jpg' class='customer-img img-fluid'><span class='customer-info-text'>Kim & Rene</span>"
 		},
 
 		"social":"You want to share your expirience about your flight with us? We would love to hear from you"
@@ -77,7 +78,7 @@
 
 	"booking":{
 		"mail":"Your e-mail address",
-		"subject":"Subject",
+		"subject":"Product",
 		"message":"Your message",
 		"send":"<i class='fa fa-paper-plane' aria-hidden='true'></i> Send booking request"
 	},

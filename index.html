@@ -9,7 +9,7 @@
     <!-- Font Awesome -->
     <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
     <!-- Font -->
-    <link href="https://fonts.googleapis.com/css?family=Lato:300,400,900|Roboto:900" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Lato:400,900" rel="stylesheet">
     <!-- Custom CSS -->
     <link rel="stylesheet" type="text/css" href="css/sky-42.css">
     <!-- Favicon -->
@@ -120,7 +120,7 @@
               <i class="fa fa-smile-o fa-4x" aria-hidden="true"></i>
               <div class="col-lg-8 offset-lg-2 col-xs-10 offste-xs-1">
                 <p class="about-icon-text" data-i18n="about.c3">
-                  We will do our best that you have a great time
+                  We do our best that you have a great time
                 </p>
               </div>
             </div>
@@ -144,7 +144,7 @@
           </div>
           <div class="col-lg-4 col-xs-10 offset-xs-1">
             <div class="pilot-text-container">
-              <p class="pilot-text">
+              <p class="pilot-text" data-i18n="pilot.text">
                With more than 30 years of paragliding expirience Helli is one of the best pilots in the region and you are in good hands.
               </p>
             </div>
@@ -169,8 +169,8 @@
                 <h4 class="card-title text-center" data-i18n="flights.panorama.heading">panorama flight</h4>
                 <p class="card-text" data-i18n="flights.panorama.desc"></p>
                 <div class="card-hard-facts">
-                  <p class="card-text" data-i18n="[html]flights.panorama.duration"><i class="fa fa-fw fa-clock-o" aria-hidden="true"></i>FLIGHT DURATION: 15-20 minutes</p>
-                  <p class="card-text" data-i18n="[html]flights.panorama.altitude"><i class="fa fa-fw fa-arrows-v" aria-hidden="true"></i>ALTITUDE: 1200m</p>
+                  <p class="card-text" data-i18n="[html]flights.panorama.duration"><i class="fa fa-fw fa-clock-o" aria-hidden="true"></i>Flight duration: 20 minutes</p>
+                  <p class="card-text" data-i18n="[html]flights.panorama.altitude"><i class="fa fa-fw fa-arrows-v" aria-hidden="true"></i>Altitude: 1200m</p>
                 </div>
                 <p class="card-price text-center">€ 120.-</p>
               </div>
@@ -181,11 +181,11 @@
            <a href="#booking" class="booking-btn page-scroll">
             <div class="price-wrapper">
               <div class="price-content">
-                <h4 class="card-title text-center" data-i18n="flights.thermal.name">thermal flight</h4>
+                <h4 class="card-title text-center" data-i18n="flights.thermal.heading">thermal flight</h4>
                 <p class="card-text" data-i18n="flights.thermal.desc"></p>
                 <div class="card-hard-facts">
-                  <p class="card-text" data-i18n="[html]flights.thermal.duration"><i class="fa fa-fw fa-clock-o" aria-hidden="true"></i>FLIGHT DURATION: 30-40 minutes</p>
-                  <p class="card-text" data-i18n="[html]flights.thermal.altitude"><i class="fa fa-fw fa-arrows-v" aria-hidden="true"></i>ALTITUDE: 1500m</p>
+                  <p class="card-text" data-i18n="[html]flights.thermal.duration"><i class="fa fa-fw fa-clock-o" aria-hidden="true"></i>Flight duration: 45-60 minutes</p>
+                  <p class="card-text" data-i18n="[html]flights.thermal.altitude"><i class="fa fa-fw fa-arrows-v" aria-hidden="true"></i>Altitude: 1500m</p>
                 </div>
                 <p class="card-price text-center">€ 170.-</p>
               </div>
@@ -197,12 +197,12 @@
            <a href="#booking" class="booking-btn page-scroll page-scroll">
             <div class="price-wrapper">
               <div class="price-content">
-                <h4 class="card-title text-center" data-i18n="flights.giftcertificate.name">gift certificate</h4>
-                <p class="card-text" data-i18n="[html]flights.giftcertificate.desc">A gift certificate for a Tandem flight is a special present for any occasion. </br>Our gift certificate is availible for the Panorama Flight, Thermal Flight and for our <a href="">extras</a>.</p>
+                <h4 class="card-title text-center" data-i18n="flights.gift.heading">gift certificate</h4>
+                <p class="card-text" data-i18n="[html]flights.gift.desc">A gift certificate for a Tandem flight is a special present for any occasion. Our gift certificate is availible for the Panorama Flight, Thermal Flight and for our <a href="">extras</a>.</p>
                 <p class="card-text"></p>
               </div>
             </div>
-            <a href="#contactform" class="btn btn-block btn-book page-scroll">order now</a>
+            <a href="#contactform" class="btn btn-block btn-book page-scroll" data-i18n="flights.gift.book">order now</a>
           </div>
           </a>
         </div>
@@ -435,8 +435,15 @@
                 <div class="col-lg-8 offset-lg-2 col-xs-12">
                   <label for="example-text-input" class="col-form-label" data-i18n="booking.mail">Your e-mail</label>
                   <input class="form-control" type="email" name="_replyto">
-                  <label for="example-text-input" class="col-form-label" data-i18n="booking.subject">Subject</label>
-                  <input class="form-control" type="text" name="subject">
+                  <label for="example-text-input" class="col-form-label" data-i18n="booking.subject">Prodcut</label>
+
+                  <select class="custom-select w-100">
+                    <option selected data-i18n="flights.panorama.heading">Panorama Flight</option>
+                    <option data-i18n="flights.thermal.heading">Thermal Flight</option>
+                    <option data-i18n="flights.gift.heading">Gift Certificate</option>
+                  </select>
+
+                  <!--<input class="form-control" type="text" name="subject">-->
                   <label for="example-text-input" class="col-form-label" data-i18n="booking.message">Your message</label>
                   <textarea class="form-control" form="usrform" name="name" rows="7"></textarea>
                   <input type="hidden" name="_next" value="./thanks.html"/>
