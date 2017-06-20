@@ -60,17 +60,17 @@
 
 		"c3":{
 			"text":"Really enjoyed my first time paragliding , very experienced pilot, could not ask for a better experience, highly recommend them, thanks again",
-			"img-name":"<img src='./img/ken.jpg' class='customer-img img-fluid'><span class='customer-info-text'>Ken</span>"
+			"img-name":"<img src='./img/customer/ken.jpg' class='customer-img img-fluid'><span class='customer-info-text'>Ken</span>"
 		},
 
 		"c2":{
 			"text":"It was my first experience in paragliding but it won't be the last. Flying over kaprun on a sunny day was a great deal with the best pilot. I strongly recommend you to try this adventure, you will love it.",
-			"img-name":"<img src='./img/kahlid.jpg' class='customer-img img-fluid'><span class='customer-info-text'>Khalid</span>"
+			"img-name":"<img src='./img/customer/kahlid.jpg' class='customer-img img-fluid'><span class='customer-info-text'>Khalid</span>"
 		},
 
 		"c1":{
 			"text":"We enjoyed the flying so much! The view was awesome and we're never gonna forget this! Thanks for this amazing experience!",
-			"img-name":"<img src='./img/kim_rene.jpg' class='customer-img img-fluid'><span class='customer-info-text'>Kim & Rene</span>"
+			"img-name":"<img src='./img/customer/kim_rene.jpg' class='customer-img img-fluid'><span class='customer-info-text'>Kim & Rene</span>"
 		},
 
 		"social":"You want to share your expirience about your flight with us? We would love to hear from you"

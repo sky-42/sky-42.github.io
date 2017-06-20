@@ -60,17 +60,17 @@
 
 		"c1":{
 			"text":"Mit unter eines der geilsten Erlebnisse ever!! Es ist alles super gelaufen und die Piloten sind absolute Vollprofis! Nur weiter zu empfehlen. Alles einfacher als man denkt, probiert es selber aus!",
-			"img-name":"<img src='./img/marcel.jpg' class='customer-img img-fluid'><span class='customer-info-text'>Marcel</span>"
+			"img-name":"<img src='./img/customer/marcel.jpg' class='customer-img img-fluid'><span class='customer-info-text'>Marcel</span>"
 		},
 
 		"c2":{
 			"text":"Wow! Das war ein tolles Erlebnis! Professionelle Ausführung von der Terminabstimmung über die Flugvorbereitung bis hin zur Durchführung des Tandemfluges! Souveräner und erfahrener Pilot!",
-			"img-name":"<img src='./img/angelika.jpg' class='customer-img img-fluid'><span class='customer-info-text'>Angelika</span>"
+			"img-name":"<img src='./img/customer/angelika.jpg' class='customer-img img-fluid'><span class='customer-info-text'>Angelika</span>"
 		},
 
 		"c3":{
 			"text":"Einfach ein tolles Erlebnis für meine Tochter und mich. Auch wenn es mir nach der Spirale ein wenig flau in der Magengegend war, meine Tochter war hier deutlich robuster. Ein super Team und in jeder Situation Herr der Dinge.",
-			"img-name":"<img src='./img/heiko.jpg' class='customer-img img-fluid'><span class='customer-info-text'>Heiko</span>"
+			"img-name":"<img src='./img/customer/heiko.jpg' class='customer-img img-fluid'><span class='customer-info-text'>Heiko</span>"
 		},
 
 		"social":"Du willst deine Flugerfahrung mit uns teilen. Wir würden uns freuen von dir zu hören"
