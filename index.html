@@ -434,20 +434,16 @@
 
                   <label for="mail-input" class="col-form-label" data-i18n="booking.mail">Your e-mail</label>
                   <input class="form-control" type="email" name="_replyto">
-
                   <label for="phone-input" class="col-form-label" data-i18n="booking.phone">Your Phone number</label>
                   <input class="form-control" type="tel" name="telephone">
-
                   <label for="example-text-input" class="col-form-label" data-i18n="booking.subject">Product</label>
                   <select class="custom-select w-100" name="_subject">
                       <option selected data-i18n="flights.panorama.heading">Panorama Flight</option>
                       <option data-i18n="flights.thermal.heading">Thermal Flight</option>
                       <option data-i18n="flights.gift.heading">Gift Certificate</option>
                   </select>
-
-                  <!--<input class="form-control" type="text" name="subject">-->
-                  <label for="example-text-input" class="col-form-label" data-i18n="booking.message">Your message</label>
-                  <textarea class="form-control" form="usrform" name="Message" rows="4"></textarea>
+                  <label for="nsg-input" class="col-form-label" data-i18n="booking.message">Your message</label>
+                  <textarea name="message" class="form-control" form="usrform" rows="4"></textarea>
                   <input type="hidden" name="_next" value="./thanks.html"/>
                   <input type="text" name="_gotcha" style="display:none" />
                   <button class="btn btn-sky-42 btn-booking" data-i18n="[html]booking.send"><i class="fa fa-paper-plane" aria-hidden="true"></i> Send booking request</button>
