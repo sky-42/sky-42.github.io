@@ -94,7 +94,7 @@ $('.nav-link').on('click',function() {
       e.preventDefault();
 
       //Name
-       var name = $("#fname").val() + $("#lname").val();
+       var name = $("#fname").val();
       //Email
       var email = $("#email").val();
       //Phone
