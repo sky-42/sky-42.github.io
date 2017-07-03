@@ -87,13 +87,36 @@ $('.nav-link').on('click',function() {
     ga('send', 'pageview');
 
 
+
+    //Formspree
     var $contactForm = $('#contactform');
     $contactForm.submit(function(e) {
       e.preventDefault();
+
+      //Name
+       var name = $("#fname").val() + $("#lname").val();
+      //Email
+      var email = $("#email").val();
+      //Phone
+      var phonne = $("#phone").val();
+      //Subject
+      var subject = $("#subject").val();
+      //Message
+      var message = $("#message").val();
+      //Next
+      var next = $("#next").val();
+
       $.ajax({
         url: '//formspree.io/sky-42@sol.at',
         method: 'POST',
-        data: $(this).serialize(),
+        data: {
+          name:name,
+          _replyto:email,
+          phone:phone,
+          _subject:subject,
+          message:message,
+          _next:next
+        },
         dataType: 'json',
         beforeSend: function() {
           $contactForm.append('<div class="alert alert--loading">Sending message…</div>');
