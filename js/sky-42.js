@@ -107,7 +107,7 @@ $('.nav-link').on('click',function() {
           //Subject
           var subject = $("#subject").val();
           //Message
-          var message = $("#booking-message").val();
+          var message = "debug";//$("#booking-message").val();
           alert(message);
           //Next
           var next = $("#next").val();
