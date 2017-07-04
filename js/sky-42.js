@@ -88,48 +88,57 @@ $('.nav-link').on('click',function() {
 
 
 
-    //Formspree
-    var $contactForm = $('#contactform');
-    $contactForm.submit(function(e) {
-      e.preventDefault();
+    //Form Validation and Formspree
+    var contactForm = $('#contactform');
+    contactForm.validate({
 
-      //Name
-       var name = $("#fname").val();
-      //Email
-      var email = $("#email").val();
-      //Phone
-      var phonne = $("#phone").val();
-      //Subject
-      var subject = $("#subject").val();
-      //Message
-      var message = $("#message").val();
-      //Next
-      var next = $("#next").val();
+      //submit if valid
+      submitHandler: function(contactForm){
+        $contactForm.submit(function(e) {
+          console.log("submit");
+          e.preventDefault();
 
-      $.ajax({
-        url: '//formspree.io/sky-42@sol.at',
-        method: 'POST',
-        data: {
-          name:name,
-          _replyto:email,
-          phone:phone,
-          _subject:subject,
-          message:message,
-          _next:next
-        },
-        dataType: 'json',
-        beforeSend: function() {
-          $contactForm.append('<div class="alert alert--loading">Sending message…</div>');
-        },
-        success: function(data) {
-          $contactForm.find('.alert--loading').hide();
-          $contactForm.append('<div class="alert alert--success">Message sent!</div>');
-        },
-        error: function(err) {
-          $contactForm.find('.alert--loading').hide();
-          $contactForm.append('<div class="alert alert--error">Ops, there was an error.</div>');
-        }
-      });
+          //Name
+           var name = $("#fname").val();
+          //Email
+          var email = $("#email").val();
+          //Phone
+          var phonne = $("#phone").val();
+          //Subject
+          var subject = $("#subject").val();
+          //Message
+          var message = $("#message").val();
+          //Next
+          var next = $("#next").val();
+
+          $.ajax({
+            url: '//formspree.io/sky-42@sol.at',
+            method: 'POST',
+            data: {
+              name:name,
+              _replyto:email,
+              phone:phone,
+              _subject:subject,
+              message:message,
+              _next:next
+            },
+            dataType: 'json',
+            beforeSend: function() {
+              $contactForm.append('<div class="alert alert--loading">Sending message…</div>');
+            },
+            success: function(data) {
+              $contactForm.find('.alert--loading').hide();
+              $contactForm.append('<div class="alert alert--success">Message sent!</div>');
+            },
+            error: function(err) {
+              $contactForm.find('.alert--loading').hide();
+              $contactForm.append('<div class="alert alert--error">Ops, there was an error.</div>');
+            }
+          });
+        });
+      }
     });
+
+    
 
 

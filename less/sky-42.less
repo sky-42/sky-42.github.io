@@ -74,14 +74,6 @@ a {
   color: @brand-color;
 }
 
-input:required:invalid, input:focus:invalid {
-  border-color: @danger-color;
-}
-
-input:required:valid {
-  border-color: @valid-color !important;
-}
-
 .navbar-padding{
   padding-top: 100px;
 }
@@ -118,5 +110,28 @@ input:required:valid {
     color: @font-color;
   }
 }
+
+
+
+input,
+textarea,
+.form-control,
+.custom-select{
+  border-color: @font-color;
+}
+
+.form-control:focus{
+  border-color: @brand-color;
+}
+
+.error {
+  border-color: red;
+}
+
+.valid {
+  border-color: green;
+}
+
+
 
 

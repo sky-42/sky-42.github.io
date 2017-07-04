@@ -650,13 +650,6 @@ a {
 .active {
   color: #009BD7;
 }
-input:required:invalid,
-input:focus:invalid {
-  border-color: #f4414c;
-}
-input:required:valid {
-  border-color: #67bf72 !important;
-}
 .navbar-padding {
   padding-top: 100px;
 }
@@ -685,4 +678,19 @@ input:required:valid {
   .heading-mobile {
     color: #282828;
   }
+}
+input,
+textarea,
+.form-control,
+.custom-select {
+  border-color: #282828;
+}
+.form-control:focus {
+  border-color: #009BD7;
+}
+.error {
+  border-color: red;
+}
+.valid {
+  border-color: green;
 }
