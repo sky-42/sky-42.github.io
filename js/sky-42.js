@@ -118,7 +118,8 @@ $('.nav-link').on('click',function() {
             data: {
               _replyto:email,
               _subject:subject,
-              _next:next
+              _next:next,
+              language:userLang
             },
             dataType: 'json',
             beforeSend: function() {
