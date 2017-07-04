@@ -99,7 +99,7 @@ $('.nav-link').on('click',function() {
           e.preventDefault();
 
           //Name
-           var name = $("#fname").val();
+          var name = $("#fname").val();
           //Email
           var email = $("#email").val();
           //Phone
@@ -116,11 +116,8 @@ $('.nav-link').on('click',function() {
             url: '//formspree.io/sky-42@sol.at',
             method: 'POST',
             data: {
-              name:name,
               _replyto:email,
-              phone:phone,
               _subject:subject,
-              message:"WTF",
               _next:next
             },
             dataType: 'json',
