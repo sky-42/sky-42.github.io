@@ -107,7 +107,7 @@ $('.nav-link').on('click',function() {
           //Subject
           var subject = $("#subject").val();
           //Message
-          var message = $("#message").val();
+          var message = $("#booking-message").val();
           alert(message);
           //Next
           var next = $("#next").val();
@@ -120,7 +120,7 @@ $('.nav-link').on('click',function() {
               _replyto:email,
               phone:phone,
               _subject:subject,
-              _message:message,
+              message:message,
               _next:next
             },
             dataType: 'json',
