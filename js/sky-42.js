@@ -120,7 +120,7 @@ $('.nav-link').on('click',function() {
               _replyto:email,
               phone:phone,
               _subject:subject,
-              message:message,
+              message:"WTF",
               _next:next
             },
             dataType: 'json',
