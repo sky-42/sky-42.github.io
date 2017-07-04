@@ -35,6 +35,11 @@
     font-size: 2rem;
   }
 }
+/*@media (min-width: 1200px) {	
+	.about-heading {
+		padding-top: 15vh;
+	}
+}*/
 #booking {
   min-height: 100vh;
 }
@@ -73,7 +78,7 @@
   min-height: 100vh;
 }
 .customer-heading {
-  padding-top: 40px;
+  padding-top: 50px;
   padding-bottom: 60px;
 }
 .customer-text {
@@ -627,7 +632,7 @@ a {
   height: 40px;
   width: 100%;
   margin-top: 50px;
-  border-radius: 20px;
+  border-radius: .25rem;
   border: 1px solid #282828;
   background-color: transparent;
   color: #282828;

@@ -78,6 +78,8 @@
 
 	"booking":{
 		"heading":"Buche jetzt deinen Flug",
+		"fname":"Vorname",
+		"lname":"Nachname",
 		"mail":"Deine e-mail Adresse",
 		"phone":"Deine Telefonnummer",
 		"subject":"Produkt",
