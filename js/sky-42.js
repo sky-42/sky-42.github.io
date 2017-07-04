@@ -95,7 +95,7 @@ $('.nav-link').on('click',function() {
       //submit if valid
       submitHandler: function(contactForm){
         $contactForm.submit(function(e) {
-          console.log("submit");
+          alert("submit");
           e.preventDefault();
 
           //Name
@@ -108,7 +108,7 @@ $('.nav-link').on('click',function() {
           var subject = $("#subject").val();
           //Message
           var message = $("#message").val();
-          console.log(message);
+          alert(message);
           //Next
           var next = $("#next").val();
 
