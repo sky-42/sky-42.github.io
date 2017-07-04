@@ -75,8 +75,8 @@ $('.nav-link').on('click',function() {
         $(".en").addClass("active");
     }
 
-    var contactform =  document.getElementById('contactform');
-    contactform.setAttribute('action', '//formspree.io/' + 'sky' + '-' + '42' + '@' + 'sol' + '.' + 'at');
+    var contactForm =  document.getElementById('contactform');
+    contactForm.setAttribute('action', '//formspree.io/' + 'sky' + '-' + '42' + '@' + 'sol' + '.' + 'at');
 
     //Google Analytics
     (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
@@ -89,8 +89,8 @@ $('.nav-link').on('click',function() {
 
 
     //Form Validation and Formspree
-    var contactForm = $('#contactform');
-    contactForm.validate({
+    //var contactForm = $('#contactform');
+    $("contactform").validate({
 
       //submit if valid
       submitHandler: function(contactForm){
@@ -108,6 +108,7 @@ $('.nav-link').on('click',function() {
           var subject = $("#subject").val();
           //Message
           var message = $("#message").val();
+          console.log(message);
           //Next
           var next = $("#next").val();
 
