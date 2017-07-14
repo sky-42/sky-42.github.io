@@ -247,7 +247,7 @@
   .landing-container {
     width: 100vw;
     height: 100vh;
-    background-color: rgba(255, 255, 255, 0.5);
+    background-color: rgba(255, 255, 255, 0);
     background-image: none;
   }
   .landing-text {
@@ -384,6 +384,9 @@
   padding-top: 10px;
   color: #282828;
   font-size: 1.4rem;
+}
+.pilot-subheading {
+  font-size: 1rem;
 }
 .pilot-text-container {
   height: 100%;

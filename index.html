@@ -52,9 +52,10 @@
  
     <!-- Landing-->
     <section id="landing" class="section">
-      <div class="video-container hidden-md-down">
+      <div class="video-container hidden-md-down" poster="img/landing-poster.jpeg">
         <video class="landing-video" playsinline autoplay muted loop>
           <source src="img/landing.mp4" type="video/mp4">
+          <img src="img/landing-poster.jpg">
         </video>
       </div>
       <div class="container-fluid landing-container"></div>
@@ -132,12 +133,11 @@
           <div class="col-lg-4 offset-lg-2 col-xs-10 offset-xs-1">
             <img class="pilot-img img-fluid" src="img/pilot.jpg">
             <h2 class="pilot-heading text-center">Helmut Gappmaier</h2>
+            <h3 class="pilot-subheading text-center" data-i18n="pilot.subheading">nationally certified tandem pilot</h3>
           </div>
           <div class="col-lg-4 col-xs-10 offset-xs-1">
             <div class="pilot-text-container">
-              <p class="pilot-text" data-i18n="pilot.text">
-               With more than 30 years of paragliding expirience Helli is one of the best pilots in the region and you are in good hands.
-              </p>
+              <p class="pilot-text" data-i18n="pilot.text">With more than 30 years of flying expirience every flight is special and save.</p>
             </div>
           </div>
         </div>
@@ -221,7 +221,7 @@
                   <div class="row">
                     <div class="col-12">
                       <h2 class="information-heading" data-i18n="information.procedure.heading">Procedure:</h2>
-                      <!-- Book -->
+                      <!-- Book
                       <div class="row procedure-row">
                         <div class="col-1 text-center information-icon">
                           <i class="fa fa-envelope-o fa-2x fa-fw" aria-hidden="true"></i>
@@ -229,14 +229,14 @@
                         <div class="col-11">
                           <p class="information-text" data-i18n="information.procedure.text1">After you booked your flight and the pilot confirmed that the weather conditions are flyable, </p>
                         </div>
-                      </div>
+                      </div> -->
                       <!-- Meet -->
                       <div class="row procedure-row">
                         <div class="col-1 text-center information-icon">
                           <i class="fa fa-map-marker fa-2x fa-fw" aria-hidden="true"></i>
                         </div>
                         <div class="col-11">
-                          <p class="information-text" data-i18n="information.procedure.text2">you'll meet with the pilot at the office and you have to fill out a ticket for your flight. Please be punctual, we have a very strict timetable and can't garuante your flight if you are late!</p>
+                          <p class="information-text" data-i18n="information.procedure.text2">you'll meet with the pilot at the office and you have to fill out a flight ticket. Please be punctual, we have a very strict timetable and can't garuante your flight if you are late!</p>
                         </div>
                       </div>
                       <div class="row procedure-row">
@@ -244,7 +244,7 @@
                           <i class="fa fa-car fa-2x fa-fw" aria-hidden="true"></i>
                         </div>
                         <div class="col-11">
-                          <p class="information-text" data-i18n="information.procedure.text3">After you filled out your ticket, you'll drive with the pilot to the cable-car and get up to the top of the Schmittenhöhe.</p>
+                          <p class="information-text" data-i18n="information.procedure.text3">Then we will drive together to the cablecar and get to the top of the Schmittenhöhe.</p>
                         </div>
                       </div>
                       <div class="row procedure-row">
@@ -252,9 +252,10 @@
                           <i class="fa fa-plane fa-2x fa-fw" aria-hidden="true"></i>
                         </div>
                         <div class="col-11">
-                          <p class="information-text" data-i18n="information.procedure.text4">On top the pilot will check the equiment and gives you a short security briefing. Then you are ready to take off and enjoy the view. The pilot will take pictures and a video of the flight.</p>
+                          <p class="information-text" data-i18n="information.procedure.text4">On top the pilot will check the equiment and gives you a short security briefing. Then you are ready to take off and enjoy the view.</p>
                         </div>
                       </div>
+                      <!-- Land
                       <div class="row procedure-row">
                         <div class="col-1 text-center information-icon">
                           <i class="fa fa-money fa-2x fa-fw" aria-hidden="true"></i>
@@ -262,7 +263,7 @@
                         <div class="col-11">
                           <p class="information-text" data-i18n="information.procedure.text5">After your save landing in the field next to the office, we will do the payment of the flight.</p>
                         </div>
-                      </div>
+                      </div>-->
                     </div>
                   </div>
                     
@@ -270,7 +271,7 @@
                   <div class="row">
                     <div class="col-12">
                       <h2 class="information-heading" data-i18n="information.price.heading">Prices &amp Payment:</h2>
-                      <p class="procedure-text" data-i18n="[html]information.price.text1">Our Prices for the Tandem Flights do not include the price for the cablecar. You can find the current prices <a class="link" href="#">here</a>.</p>
+                      <p class="procedure-text" data-i18n="[html]information.price.text1"><p style="font-weight: bold">Our Prices for the Tandem Flights do not include the price for the cablecar.<p> You can find the current prices <a class="link" href="#">here</a>.</p>
                       <p class="procedure-text" data-i18n="information.price.heading" data-i18n="information.price.text2">We only accept cash at our office.</p>
                     </div>
                   </div>
@@ -279,9 +280,12 @@
                   <div class="row">
                     <div class="col-12">
                       <h2 class="information-heading" data-i18n="information.requirements.heading">Requirements to do a tandem flight:</h2>
+
+                      <p></p>
+
                       <ul class="information-list">
                         <li class="information-list-item" data-i18n="information.requirements.p1">
-                          Solid Shoes
+                          weight between 25 - 130 kg
                         </li>
                          <li class="information-list-item" data-i18n="information.requirements.p2">
                           Solid Shoes
@@ -455,11 +459,12 @@
                   <select class="custom-select w-100" id="subject" name="_subject" required>
                       <option selected data-i18n="flights.panorama.heading">Panorama Flight</option>
                       <option data-i18n="flights.thermal.heading">Thermal Flight</option>
-                      <option data-i18n="flights.gift.heading">Gift Certificate</option>
+                      <option data-i18n="book.gift.p">Gift Certificate Thermal flight</option>
+                      <option data-i18n="book.gift.t">Gift Certificate Panorama flight</option>
                   </select>
 
                   <label for="nsg-input" class="col-form-label" data-i18n="booking.message">Your message</label>
-                  <textarea id="booking-message" name="Message" class="form-control" rows="4" required>Text</textarea>
+                  <textarea id="booking-message" name="Message" class="form-control" rows="4" required></textarea>
                   
                   <input type="hidden" id="next" name="_next" value="./thanks.html"/>
                   <input type="text" name="_gotcha" style="display:none" />

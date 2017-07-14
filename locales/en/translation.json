@@ -14,14 +14,15 @@
 
 	"about":{
 		"heading":"feel free like a bird",
-		"text":"Sky for two is a tandem paragliding company in the region <a href='https://www.zellamsee-kaprun.com' class='link' target='blank'>Zell am See / Kaprun</a>. Founded in 20.., the goal was to fullfill peoples dream of the free flight and show them our beautiful region from a bird's eye view.",
+		"text":"Sky for two is a tandem paragliding company in the region <a href='https://www.zellamsee-kaprun.com' class='link' target='blank'>Zell am See / Kaprun</a>. Founded in 2011, the goal was to fullfill peoples dream of the free flight and show them our beautiful region from a bird's eye view.",
 		"c1":"Get the best view of the region",
 		"c2":"Be in good hands, thanks to the best pilots and the latest gear",
 		"c3":"We do our best that you have a good time"
 	},
 
 	"pilot":{
-		"text":"With more than 30 years of paragliding expirience Helli is one of the best pilots in the region and you are in good hands."
+		"subheading":"nationally certified tandem pilot",
+		"text":"With more than 30 years of flying expirience every flight is special and save."
 	},
 
 	"flights":{
@@ -117,6 +118,13 @@
 			"p2":"Jacket",
 			"p3":"Sun glasses & sun screen",
 			"p4":"good spirit <i class='fa fa-smile-o' aria-hidden='true'></i>"
+		}
+	},
+
+	"book":{
+		"gift":{
+			"p":"Gift Certificate Panorama Flight",
+			"t":"Gift Certificate Thermal Flight"
 		}
 	}
 }

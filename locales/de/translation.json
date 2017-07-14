@@ -14,34 +14,35 @@
 
 	"about":{
 		"heading":"Fühl dich frei wie ein Vogel",
-		"text":"Sky for two ist ein Tandem-Paragleit Unternehmen in der Region <a href='https://www.zellamsee-kaprun.com' class='link' target='blank'>Zell am See / Kaprun</a>. Gegründet wurde sky for two im Jahr 20.. um Leuten den Traum vom Fliegen wahr werden zu lassen und ihnen unsere wunderschöne Region aus der Vogelperspektive zu zeigen.",
+		"text":"Sky for two ist ein Tandem-Paragleit Unternehmen in der Region <a href='https://www.zellamsee-kaprun.com' class='link' target='blank'>Zell am See / Kaprun</a>. Gegründet wurde sky for two im Jahr 2011 um Leuten den Traum vom Fliegen wahr werden zu lassen und ihnen unsere wunderschöne Region aus der Vogelperspektive zu zeigen.",
 		"c1":"Genieß die beste Aussicht der Region",
 		"c2":"Sei in guten Händen, dank der neuesten Ausrüstung und top ausgebildeten Piloten",
 		"c3":"Wir geben unser bestes damit du eine gute Zeit hast"
 	},
 
 	"pilot":{
-		"text":"Mit mehr als 30 Jahren Flugerfahrung ist Helli einer der besten Piloten in der Gegend und du bist gut aufgehoben."
+		"subheading":"staatlich geprüfter Tandempilot",
+		"text":"Durch die mehr als 30 jährige Flugerfahrung wird jeder Flug zu einem besonderen, vor allem sicheren Erlebnis."
 	},
 
 	"flights":{
 		"panorama":{
 			"heading":"Panoramaflug",
-			"duration":"<i class='fa fa-fw fa-clock-o' aria-hidden='true'></i>Flugdauer:  20 Minuten",
-			"altitude":"<i class='fa fa-fw fa-arrows-v' aria-hidden='true'></i>Flughöhe: 1200m</p>",
+			"duration":"<i class='fa fa-fw fa-clock-o' aria-hidden='true'></i>Flugdauer:  ca. 20 Minuten",
+			"altitude":"<i class='fa fa-fw fa-arrows-v' aria-hidden='true'></i>Höhendifferenz: 1200m</p>",
 			"book":"Jetzt Buchen"
 		},
 
 		"thermal":{
 			"heading":"Thermikflug",
-			"duration":"<i class='fa fa-fw fa-clock-o' aria-hidden='true'></i>Flugdauer: 50 Minuten",
-			"altitude":"<i class='fa fa-fw fa-arrows-v' aria-hidden='true'></i>Flughöhe: 1500m</p>",
+			"duration":"<i class='fa fa-fw fa-clock-o' aria-hidden='true'></i>Flugdauer: 45 bis 60 Minuten",
+			"altitude":"<i class='fa fa-fw fa-arrows-v' aria-hidden='true'></i>Höhendifferenz: mindestens 1200m</p>",
 			"book":"Jetzt Buchen"
 		},
 
 		"gift":{
 			"heading":"Gutschein",
-			"desc":"Ein Gutschein für einen Tademflug ist immer ein spezielles Geschenk für jede Gelegnheit. Unser Gutschein is für den Panoramaflug, Thermikflug und auch für unsere Extras erhältlich.",
+			"desc":"Ein Gutschein für einen Tandemflug ist immer ein spezielles Geschenk für jede Gelegnheit. Unser Gutschein is für den Panoramaflug, Thermikflug und auch für unsere Extras erhältlich.",
 			"book":"Jetzt Bestellen"
 		},
 
@@ -85,6 +86,13 @@
 		"subject":"Produkt",
 		"message":"Deine Nachricht",
 		"send":"<i class='fa fa-paper-plane' aria-hidden='true'></i> Buchungsanfrage senden"
+	},
+
+	"book":{
+		"gift":{
+			"p":"Gutschein Panoramaflug",
+			"t":"Gustchein Thermikflug"
+		}
 	}
 
 
