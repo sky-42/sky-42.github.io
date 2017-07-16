@@ -107,9 +107,8 @@
 
 		"requirements":{
 			"heading":"Requirements",
-			"p1":"weight between 25 - 130kg",
-			"p2":"",
-			"p3":""
+			"text":"",
+			"p1":"weight between 25 - 130kg"
 		},
 
 		"wyn":{
@@ -118,7 +117,7 @@
 			"p2":"jacket",
 			"p3":"sunglasses & sunscreen",
 			"p4":"skisuit in winter",
-			"p4":"good spirit! <i class='fa fa-smile-o' aria-hidden='true'></i>"
+			"p5":"good spirit! <i class='fa fa-smile-o' aria-hidden='true'></i>"
 		}
 	},
 
