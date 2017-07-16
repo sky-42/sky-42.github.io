@@ -3,7 +3,7 @@
   height: auto;
 }
 #about i {
-  color: #009BD7;
+  color: #009bd7;
 }
 .about-heading {
   padding: 50px 0 30px 0;
@@ -104,7 +104,7 @@
   border: 1px solid #ced1d3;
 }
 .ap {
-  color: #009BD7;
+  color: #009bd7;
   font-size: 1.2em;
 }
 .speech-bubble {
@@ -147,12 +147,12 @@
   transition: all .5s ease;
 }
 .customer-icon:hover {
-  border-color: #009BD7;
-  color: #009BD7;
+  border-color: #009bd7;
+  color: #009bd7;
   transition: all .5s ease;
 }
 .customer-icon:hover .fa {
-  color: #009BD7 !important;
+  color: #009bd7 !important;
   transition: all .5s ease;
 }
 #landing {
@@ -175,7 +175,7 @@
   width: 50%;
 }
 .landing-text h1 {
-  color: rgba(0, 0, 0, 0.8);
+  color: #ffffff;
   font-family: 'Lato', sans-serif;
   font-weight: 900;
   font-size: 1.2rem !important;
@@ -191,19 +191,19 @@
   width: 50px;
   height: 50px;
   border-radius: 50%;
-  border: 2px solid #000000;
+  border: 2px solid #ffffff;
   background-color: transparent;
   margin-left: -25px;
   transition: all .5s ease;
 }
 .landing-button i {
-  color: #000000;
+  color: #ffffff;
   transition: all .5s ease;
 }
 .landing-button:hover,
 .landing-button:focus,
 .landing-button:active {
-  border-color: #009BD7;
+  border-color: #ffffff;
   background-color: rgba(255, 255, 255, 0.5);
   outline: 0;
   transition: all .5s ease;
@@ -211,7 +211,7 @@
 .landing-button:hover i,
 .landing-button:focus i,
 .landing-button:active i {
-  color: #009BD7;
+  color: #ffffff;
   transition: all .5s ease;
 }
 @media (min-width: 576px) {
@@ -294,22 +294,22 @@
   font-size: 1.2rem;
 }
 .navbar-nav .nav-item .nav-link:hover {
-  color: #009BD7;
+  color: #009bd7;
 }
 .en.active,
 .de.active {
-  color: #009BD7 !important;
+  color: #009bd7 !important;
 }
 .en:hover,
 .de:hover {
-  color: #009BD7 !important;
+  color: #009bd7 !important;
   cursor: pointer;
 }
 .navbar-light .navbar-nav .active > .nav-link,
 .navbar-light .navbar-nav .nav-link.active,
 .navbar-light .navbar-nav .nav-link.open,
 .navbar-light .navbar-nav .open > .nav-link {
-  color: #009BD7;
+  color: #009bd7;
 }
 .logo {
   height: 40px;
@@ -327,7 +327,7 @@
   background-image: url("../img/toggler-hover.svg");
 }
 .navbar-toggler-right:hover {
-  color: #009BD7;
+  color: #009bd7;
 }
 .navbar-toggler-right:focus {
   outline: 0;
@@ -343,7 +343,7 @@
     font-size: 1rem;
   }
   .lang .active {
-    color: #009BD7;
+    color: #009bd7;
   }
   .lang a {
     color: #000000;
@@ -352,7 +352,7 @@
     font-size: 0.85em;
   }
   .lang a:hover {
-    color: #009BD7;
+    color: #009bd7;
   }
   .navbar {
     height: 80px;
@@ -424,7 +424,7 @@
 .price-wrapper-outter .btn-book {
   border: none;
   border-radius: 0;
-  background-color: #009BD7;
+  background-color: #009bd7;
   color: white;
   height: 40px;
   vertical-align: bottom;
@@ -469,7 +469,7 @@
   .price-wrapper-outter .btn-book {
     border: none;
     border-radius: 0;
-    background-color: #009BD7;
+    background-color: #009bd7;
     color: white;
     height: 40px;
     margin: 0;
@@ -496,7 +496,7 @@
 }
 .card-price {
   font-size: 2.5rem;
-  color: #009BD7;
+  color: #009bd7;
   padding-top: 20px;
 }
 .info {
@@ -504,7 +504,7 @@
   color: #282828;
 }
 .info a {
-  color: #009BD7;
+  color: #009bd7;
 }
 .info a:hover {
   text-decoration: none;
@@ -541,7 +541,7 @@
   opacity: 1;
 }
 .close:hover {
-  color: #009BD7;
+  color: #009bd7;
   opacity: 1;
 }
 .information-heading {
@@ -549,7 +549,7 @@
   font-size: 1.2rem;
   margin-top: 30px;
   font-weight: bold;
-  color: #009BD7;
+  color: #009bd7;
   margin-bottom: 20px;
 }
 .information-text {
@@ -573,7 +573,7 @@
   margin: 0;
 }
 #footer {
-  background-color: #009BD7;
+  background-color: #009bd7;
   min-height: 9vh;
   margin-top: -10px;
 }
@@ -619,17 +619,17 @@ a {
   color: #282828;
 }
 .link {
-  color: #009BD7;
+  color: #009bd7;
   text-decoration: none;
 }
 .link:hover,
 .link:active,
 .link:focus {
-  color: #009BD7;
+  color: #009bd7;
   text-decoration: underline;
 }
 .link:visited {
-  color: #009BD7;
+  color: #009bd7;
   text-decoration: none;
 }
 .btn-sky-42 {
@@ -648,8 +648,8 @@ a {
 .btn-sky-42:hover,
 .btn-sky-42:focus,
 .btn-sky-42:active {
-  color: #009BD7;
-  border-color: #009BD7;
+  color: #009bd7;
+  border-color: #009bd7;
   background-color: white;
   outline: 0;
 }
@@ -657,7 +657,7 @@ a {
   outline: 0;
 }
 .active {
-  color: #009BD7;
+  color: #009bd7;
 }
 .navbar-padding {
   padding-top: 100px;
@@ -695,7 +695,7 @@ textarea,
   border-color: #282828;
 }
 .form-control:focus {
-  border-color: #009BD7;
+  border-color: #009bd7;
 }
 .error {
   border-color: red;

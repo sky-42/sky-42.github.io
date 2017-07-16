@@ -36,7 +36,7 @@
 		"thermal":{
 			"heading":"Thermal Flight",
 			"duration":"<i class='fa fa-fw fa-clock-o' aria-hidden='true'></i>Flight duration: 45-60 minutes",
-			"altitude":"<i class='fa fa-fw fa-arrows-v' aria-hidden='true'></i>Hight differnce: min. 1500m</p>",
+			"altitude":"<i class='fa fa-fw fa-arrows-v' aria-hidden='true'></i>Hight differnce: min. 1200m</p>",
 			"book":"Book now"
 		},
 
