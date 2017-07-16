@@ -14,29 +14,29 @@
 
 	"about":{
 		"heading":"feel free like a bird",
-		"text":"Sky for two is a tandem paragliding company in the region <a href='https://www.zellamsee-kaprun.com' class='link' target='blank'>Zell am See / Kaprun</a>. Founded in 2011, the goal was to fullfill peoples dream of the free flight and show them our beautiful region from a bird's eye view.",
+		"text":"Sky for two is a Tandem Paragliding Company in the region <a href='https://www.zellamsee-kaprun.com' class='link' target='blank'>Zell am See / Kaprun</a>. Founded in 2011, the goal was to fullfill peoples dream of the free flight and show them our beautiful region from a bird's eye view.",
 		"c1":"Get the best view of the region",
 		"c2":"Be in good hands, thanks to the best pilots and the latest gear",
-		"c3":"We do our best that you have a good time"
+		"c3":"We do our best that you will have a good time"
 	},
 
 	"pilot":{
 		"subheading":"nationally certified tandem pilot",
-		"text":"With more than 30 years of flying expirience every flight is special and save."
+		"text":"With more than 30 years of flying experience every flight will be special and abvoe all safe."
 	},
 
 	"flights":{
 		"panorama":{
 			"heading":"Panorama Flight",
-			"duration":"<i class='fa fa-fw fa-clock-o' aria-hidden='true'></i>Flight duration: 20 minutes",
-			"altitude":"<i class='fa fa-fw fa-arrows-v' aria-hidden='true'></i>Altitude: 1200m</p>",
+			"duration":"<i class='fa fa-fw fa-clock-o' aria-hidden='true'></i>Flight duration: about 20 minutes",
+			"altitude":"<i class='fa fa-fw fa-arrows-v' aria-hidden='true'></i>Hight differnce: 1200m</p>",
 			"book":"Book now"
 		},
 
 		"thermal":{
 			"heading":"Thermal Flight",
 			"duration":"<i class='fa fa-fw fa-clock-o' aria-hidden='true'></i>Flight duration: 45-60 minutes",
-			"altitude":"<i class='fa fa-fw fa-arrows-v' aria-hidden='true'></i>Altitude: 1500m</p>",
+			"altitude":"<i class='fa fa-fw fa-arrows-v' aria-hidden='true'></i>Hight differnce: min. 1500m</p>",
 			"book":"Book now"
 		},
 
