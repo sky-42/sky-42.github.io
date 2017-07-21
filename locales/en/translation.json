@@ -50,7 +50,7 @@
 	},
 
 	"contact":{
-		"phone":"phone",
+		"phone":"phone <i class='fa fa-mobile' aria-hidden='true'></i>",
 		"address":"address",
 		"directions":"<i class='fa fa-road' aria-hidden='true'></i> Directions"
 	},
@@ -90,6 +90,8 @@
 
 	"information":{
 
+		"heading":"Information about our Flights &amp Prices",
+
 		"procedure":{
 			"heading":"Procedure",
 			"text1":"After you booked your flight and the pilot confirmed that the weather conditions are flyable,",
@@ -107,15 +109,15 @@
 
 		"requirements":{
 			"heading":"Requirements",
-			"text":"",
-			"p1":"weight between 25 - 130kg"
+			"text":"No previous knowledge or talent is required.",
+			"p1":"weight between 25 - 110kg"
 		},
 
 		"wyn":{
 			"heading":"Things you need for your flight",
 			"p1":"solid shoes",
 			"p2":"jacket",
-			"p3":"sunglasses & sunscreen",
+			"p3":"sunglasses",
 			"p4":"skisuit in winter",
 			"p5":"good spirit! <i class='fa fa-smile-o' aria-hidden='true'></i>"
 		}

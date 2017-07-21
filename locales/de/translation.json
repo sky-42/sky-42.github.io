@@ -50,7 +50,7 @@
 	},
 
 	"contact":{
-		"phone":"Telefon",
+		"phone":"Telefon <i class='fa fa-mobile' aria-hidden='true'></i>",
 		"address":"Adresse",
 		"directions":"<i class='fa fa-road' aria-hidden='true'></i> Wegbeschreibung"
 	},
@@ -86,6 +86,41 @@
 		"subject":"Produkt",
 		"message":"Deine Nachricht",
 		"send":"<i class='fa fa-paper-plane' aria-hidden='true'></i> Buchungsanfrage senden"
+	},
+
+	"information":{
+
+		"heading":"Informationen zu unseren Flügen und Preisen",
+
+		"procedure":{
+			"heading":"Ablauf",
+			"text1":"After you booked your flight and the pilot confirmed that the weather conditions are flyable,",
+			"text2":"Treffpunkt ist bei unserem Büro in Fürth, dort ist ein Flugticket auszufüllen. Bitte pünktlich erscheinen da wir einen sehr strengen Zeitplan einzuhalten haben. Bei Passagieren die zu spät kommen können wir denn Flug nicht garantieren",
+			"text3":"Nach dem ausfüllen des Tickets fahren wir mit unserem Auto zur Schmittenhöhe Seilbahn.",
+			"text4":"Auf der Schmittenhöhe führen wir eine kurze Sicherheitseinweisung durch und sind dann auch schon bereit zu starten und die schöne Aussicht zu genießen.",
+			"text5":"After your save landing in the field next to the office, we will do the payment of the flight."
+		},
+
+		"price":{
+			"heading":"Preise & Bezahlung",
+			"text1":"<span style='font-weight: bold'>Im Preis ist das Lifticket für die Auffahrt auf die Schmittenhöhe nicht inkludiert.</span>  Die momentanen Preise für die Seilbahn findet sind <a class='link' target='blank' href='http://www.schmitten.at/de/sommer/tickets-und-preise/special-tickets'>hier</a>.",
+			"text2":"Bei uns im Büro ist nur Barzahlung möglich."
+		},
+
+		"requirements":{
+			"heading":"Voraussetzungen",
+			"text":"Es sind keine besonderen Vorkenntnisse oder Fähigkeiten für einen Tandemflug notwendig.",
+			"p1":"Gewicht zwischen 25 - 110kg"
+		},
+
+		"wyn":{
+			"heading":"Dinge die du zu deinem Flug mitbringen sollst",
+			"p1":"festes Schuhwerk",
+			"p2":"Jacke",
+			"p3":"Sonnenbrille",
+			"p4":"skisuit in winter",
+			"p5":"gute Laune! <i class='fa fa-smile-o' aria-hidden='true'></i>"
+		}
 	},
 
 	"book":{
