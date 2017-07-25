@@ -41,8 +41,8 @@
 		},
 
 		"gift":{
-			"name":"Gift-Certificate",
-			"desc":"A gift certificate for a Tandem flight is a special present for any occasion. Our gift certificate is availible for the Panorama Flight, Thermal Flight and for our extras.",
+			"name":"Gift Card",
+			"desc":"A Gift Card for a Tandem flight is a special present for any occasion. Our Gift Card is availible for the Panorama Flight, Thermal Flight and for our extras.",
 			"book":"Order now"
 		},
 
@@ -125,8 +125,8 @@
 
 	"book":{
 		"gift":{
-			"p":"Gift Certificate Panorama Flight",
-			"t":"Gift Certificate Thermal Flight"
+			"p":"Gift Card Panorama Flight",
+			"t":"Gift Card Thermal Flight"
 		}
 	}
 }
