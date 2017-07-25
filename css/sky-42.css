@@ -607,6 +607,19 @@
   right: 20px;
   margin-top: -70px;
 }
+.impressum p {
+  margin-bottom: 0;
+}
+.impressum p a {
+  color: #009bd7;
+  text-decoration: none;
+}
+.impressum p a:hover {
+  text-decoration: underline;
+}
+.impressum h2 {
+  margin-top: 30px;
+}
 html,
 body {
   font-family: 'Lato', san-serif;
