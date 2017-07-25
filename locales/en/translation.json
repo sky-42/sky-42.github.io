@@ -41,7 +41,7 @@
 		},
 
 		"gift":{
-			"name":"Gift Card",
+			"heading":"Gift Card",
 			"desc":"A Gift Card for a Tandem flight is a special present for any occasion. Our Gift Card is availible for the Panorama Flight, Thermal Flight and for our extras.",
 			"book":"Order now"
 		},

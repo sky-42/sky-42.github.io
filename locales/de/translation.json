@@ -9,40 +9,40 @@
 	},
 
 	"landing":{
-		"heading":"wir lassen ihren traum vom fliegen wahr werden"
+		"heading":"wir lassen Ihren Traum vom Fliegen wahr werden."
 	},
 
 	"about":{
-		"heading":"Fühl dich frei wie ein Vogel",
-		"text":"Sky for two ist ein Tandem-Paragleit Unternehmen in der Region <a href='https://www.zellamsee-kaprun.com' class='link' target='blank'>Zell am See / Kaprun</a>. Gegründet wurde sky for two im Jahr 2011 um Leuten den Traum vom Fliegen wahr werden zu lassen und ihnen unsere wunderschöne Region aus der Vogelperspektive zu zeigen.",
-		"c1":"Genieß die beste Aussicht der Region",
-		"c2":"Sei in guten Händen, dank der neuesten Ausrüstung und top ausgebildeten Piloten",
-		"c3":"Wir geben unser bestes damit du eine gute Zeit hast"
+		"heading":"FÜHL DICH FREI WIE EIN VOGEL",
+		"text":"Sky for two ist ein Tandem-Paragleit Unternehmen in der Region <a href='https://www.zellamsee-kaprun.com' class='link' target='blank'>Zell am See/Kaprun</a>. Dieses wurde im Jahr 2011 gegründet, um Menschen den Traum vom Fliegen zu ermöglichen und ihnen unsere wunderschöne Region aus der Vogelperspektive zu zeigen.",
+		"c1":"Genießen Sie die beste Aussicht der Region",
+		"c2":"Sie sind bei uns in guten Händen, dank top ausgebildeten Piloten und der neuesten Ausrüstung.",
+		"c3":"Wir geben unser Bestes, damit Sie eine gute Zeit haben."
 	},
 
 	"pilot":{
 		"subheading":"staatlich geprüfter Tandempilot",
-		"text":"Durch die mehr als 30 jährige Flugerfahrung wird jeder Flug zu einem besonderen und vor allem sicheren Erlebnis."
+		"text":"Dank der mehr als 30 jährigen Flugerfahrung wird jeder Flug zu einem besonderen und vor allem sicheren Erlebnis."
 	},
 
 	"flights":{
 		"panorama":{
 			"heading":"Panoramaflug",
 			"duration":"<i class='fa fa-fw fa-clock-o' aria-hidden='true'></i>Flugdauer:  ca. 20 Minuten",
-			"altitude":"<i class='fa fa-fw fa-arrows-v' aria-hidden='true'></i>Höhendifferenz: 1200m</p>",
+			"altitude":"<i class='fa fa-fw fa-arrows-v' aria-hidden='true'></i>Höhendifferenz: 1200 Meter</p>",
 			"book":"Jetzt Buchen"
 		},
 
 		"thermal":{
 			"heading":"Thermikflug",
 			"duration":"<i class='fa fa-fw fa-clock-o' aria-hidden='true'></i>Flugdauer: 45 bis 60 Minuten",
-			"altitude":"<i class='fa fa-fw fa-arrows-v' aria-hidden='true'></i>Höhendifferenz: mindestens 1200m</p>",
+			"altitude":"<i class='fa fa-fw fa-arrows-v' aria-hidden='true'></i>Höhendifferenz: mindestens 1200 Meter</p>",
 			"book":"Jetzt Buchen"
 		},
 
 		"gift":{
 			"heading":"Gutschein",
-			"desc":"Ein Gutschein für einen Tandemflug ist immer ein spezielles Geschenk für jede Gelegnheit. Unser Gutschein is für den Panoramaflug, Thermikflug und auch für unsere Extras erhältlich.",
+			"desc":"Ein Gutschein für einen Tandemflug ist immer ein besonderes Geschenk für jede Gelegenheit. Unser Gutschein ist für einen Panoramaflug, Thermikflug und auch für unsere Extras erhältlich.",
 			"book":"Jetzt Bestellen"
 		},
 
@@ -74,17 +74,17 @@
 			"img-name":"<img src='./img/customer/heiko.jpg' class='customer-img img-fluid'><span class='customer-info-text'>Heiko</span>"
 		},
 
-		"social":"Du willst deine Flugerfahrung mit uns teilen. Wir würden uns freuen von dir zu hören"
+		"social":"Sie wollen Ihre Flugerfahrung mit uns teilen? Wir würden uns freuen von Ihnen zu hören!"
 	},
 
 	"booking":{
-		"heading":"Buche jetzt deinen Flug",
+		"heading":"Buchen Sie jetzt Ihren Flug",
 		"fname":"Vorname",
 		"lname":"Nachname",
-		"mail":"Deine e-mail Adresse",
-		"phone":"Deine Telefonnummer",
+		"mail":"E-Mail Adresse",
+		"phone":"Telefonnummer",
 		"subject":"Produkt",
-		"message":"Deine Nachricht",
+		"message":"Nachricht",
 		"send":"<i class='fa fa-paper-plane' aria-hidden='true'></i> Buchungsanfrage senden"
 	},
 
@@ -94,23 +94,23 @@
 
 		"procedure":{
 			"heading":"Ablauf",
-			"text1":"After you booked your flight and the pilot confirmed that the weather conditions are flyable,",
-			"text2":"Treffpunkt ist bei unserem Büro in Fürth, dort ist ein Flugticket auszufüllen. Bitte pünktlich erscheinen da wir einen sehr strengen Zeitplan einzuhalten haben. Bei Passagieren die zu spät kommen können wir denn Flug nicht garantieren",
-			"text3":"Nach dem ausfüllen des Tickets fahren wir mit unserem Auto zur Schmittenhöhe Seilbahn.",
-			"text4":"Auf der Schmittenhöhe führen wir eine kurze Sicherheitseinweisung durch und sind dann auch schon bereit zu starten und die schöne Aussicht zu genießen.",
-			"text5":"After your save landing in the field next to the office, we will do the payment of the flight."
+			"text1":"",
+			"text2":"Treffpunkt ist bei unserem Büro in Fürth, wo Sie gebeten werden ein Flugticket auszufüllen. Bitte erscheinen Sie pünktlich, da wir einen recht strengen Zeitplan haben und diesen einhalten möchten. Bei Passagieren die zu spät kommen, können wir eine Flug leider nicht immer garantieren.",
+			"text3":"Nach dem Ausfüllen des Tickets bringen wir Sie gemeinsam mit dem Pilot zur Seilbahn der Schmittenhöhe.",
+			"text4":"Am Berg angelangt führen wir eine kurze Sicherheitseinweisung durch. Danach kann gestartet und die schöne Aussicht genossen werden.",
+			"text5":""
 		},
 
 		"price":{
 			"heading":"Preise & Bezahlung",
-			"text1":"<span style='font-weight: bold'>Im Preis ist das Lifticket für die Auffahrt auf die Schmittenhöhe nicht inkludiert.</span>  Die momentanen Preise für die Seilbahn findet sind <a class='link' target='blank' href='http://www.schmitten.at/de/sommer/tickets-und-preise/special-tickets'>hier</a>.",
+			"text1":"<span style='font-weight: bold'>Bitte beachten Sie, dass im Preis das Liftticket für die Auffahrt auf die Schmittenhöhe nicht inkludiert ist.</span>  Die aktuellen Preise für die Seilbahn finden Sie <a class='link' target='blank' href='http://www.schmitten.at/de/sommer/tickets-und-preise/special-tickets'>hier</a>.",
 			"text2":"Bei uns im Büro ist nur Barzahlung möglich."
 		},
 
 		"requirements":{
 			"heading":"Voraussetzungen",
 			"text":"Es sind keine besonderen Vorkenntnisse oder Fähigkeiten für einen Tandemflug notwendig.",
-			"p1":"Gewicht zwischen 25 - 110kg"
+			"p1":"Gewicht zwischen 25 - 110 kg"
 		},
 
 		"wyn":{
