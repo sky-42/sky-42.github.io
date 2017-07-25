@@ -81,10 +81,10 @@
 		"heading":"Book your flight now",
 		"fname":"First name",
 		"lname":"Last name",
-		"mail":"Your e-mail address",
-		"phone":"Your Phone number",
+		"mail":"E-Mail address",
+		"phone":"Phone number",
 		"subject":"Product",
-		"message":"Your message",
+		"message":"Message",
 		"send":"<i class='fa fa-paper-plane' aria-hidden='true'></i> Send booking request"
 	},
 
