@@ -131,7 +131,8 @@
 	},
 
 	"booking":{
-		"hotline":"Buchungs Hotline<br>Bitte +43 664 2421484 anrufen"	
+		"hotline":"Buchungs Hotline<br>Bitte +43 664 2421484 anrufen",
+		"form":"oder füllen Sie unser Fomrular für eine Buchungsanfrage aus"	
 	}
 
 

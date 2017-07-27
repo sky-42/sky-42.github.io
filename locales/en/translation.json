@@ -136,7 +136,8 @@
 	},
 
 	"booking":{
-		"hotline":"Booking Hotline<br>Please call +43 664 2421484"	
+		"hotline":"Booking Hotline<br>Please call +43 664 2421484",
+		"form":"or fill out this form for a booking request"
 	}
 
 
