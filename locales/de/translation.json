@@ -85,7 +85,9 @@
 		"phone":"Telefonnummer",
 		"subject":"Produkt",
 		"message":"Nachricht",
-		"send":"<i class='fa fa-paper-plane' aria-hidden='true'></i> Buchungsanfrage senden"
+		"send":"<i class='fa fa-paper-plane' aria-hidden='true'></i> Buchungsanfrage senden",
+		"hotline":"Buchungs Hotline<br>Bitte +43 664 2421484 anrufen",
+		"form":"oder füllen Sie unser Fomrular für eine Buchungsanfrage aus"
 	},
 
 	"information":{
@@ -129,11 +131,6 @@
 			"t":"Gustchein Thermikflug"
 		}
 	},
-
-	"booking":{
-		"hotline":"Buchungs Hotline<br>Bitte +43 664 2421484 anrufen",
-		"form":"oder füllen Sie unser Fomrular für eine Buchungsanfrage aus"	
-	}
 
 
 }

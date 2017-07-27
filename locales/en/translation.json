@@ -85,7 +85,9 @@
 		"phone":"Phone number",
 		"subject":"Product",
 		"message":"Message",
-		"send":"<i class='fa fa-paper-plane' aria-hidden='true'></i> Send booking request"
+		"send":"<i class='fa fa-paper-plane' aria-hidden='true'></i> Send booking request",
+		"hotline":"Booking Hotline<br>Please call +43 664 2421484",
+		"form":"or fill out this form for a booking request"
 	},
 
 	"information":{
@@ -134,11 +136,6 @@
 		"button":"Back to the main page",
 		"text":"Thanks you for your booking inquiry, we will respond as soon as possible."
 	},
-
-	"booking":{
-		"hotline":"Booking Hotline<br>Please call +43 664 2421484",
-		"form":"or fill out this form for a booking request"
-	}
 
 
 }
