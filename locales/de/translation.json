@@ -128,6 +128,10 @@
 			"p":"Gutschein Panoramaflug",
 			"t":"Gustchein Thermikflug"
 		}
+	},
+
+	"booking":{
+		"hotline":"Buchungs Hotline<br>Bitte +43 664 2421484 anrufen"	
 	}
 
 
