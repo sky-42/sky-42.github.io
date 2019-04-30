@@ -35,7 +35,7 @@
 
 		"thermal":{
 			"heading":"Thermikflug",
-			"duration":"<i class='fa fa-fw fa-clock-o' aria-hidden='true'></i>Flugdauer: 45 Minuten",
+			"duration":"<i class='fa fa-fw fa-clock-o' aria-hidden='true'></i>Flugdauer: 30 - 40 Minuten",
 			"altitude":"<i class='fa fa-fw fa-arrows-v' aria-hidden='true'></i>Höhendifferenz: min. 1200 Meter</p>",
 			"book":"Jetzt Buchen"
 		},
