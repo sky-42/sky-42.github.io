@@ -75,7 +75,7 @@ function changeToEN() {
 }
 
 var contactForm =  document.getElementById('contactform');
-contactForm.setAttribute('action', '//formspree.io/f/' + 'sky' + '-' + '42' + '@' + 'sol' + '.' + 'at');
+contactForm.setAttribute('action', 'https://formspree.io/f/' + 'sky' + '-' + '42' + '@' + 'sol' + '.' + 'at');
 
 //Google Analytics
 (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
