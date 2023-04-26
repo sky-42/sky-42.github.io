@@ -27,25 +27,31 @@
 
 	"flights":{
 		"panorama":{
-			"heading":"Panorama Flight",
+			"heading":"Classic",
 			"duration":"<i class='fa fa-fw fa-clock-o' aria-hidden='true'></i>Flight duration: about 20 minutes",
+			"description": "Always possible at our booking times. We start from the top of the Schmittenhöhe in 2000m and glide down to our landing site directly at our Sky-42 Tandem Center.",
 			"altitude":"<i class='fa fa-fw fa-arrows-v' aria-hidden='true'></i>Hight differnce: 1200 meter</p>",
 			"book":"Book now"
 		},
 
 		"thermal":{
-			"heading":"Thermal Flight",
+			"heading":"Classic PLUS",
 			"duration":"<i class='fa fa-fw fa-clock-o' aria-hidden='true'></i>Flight duration: about 40 minutes",
+			"description": "We take advantage of the thermals and thus have a longer flight time and a better view from a higher altitude, depending on the quality of the thermals.",
 			"altitude":"<i class='fa fa-fw fa-arrows-v' aria-hidden='true'></i>Hight differnce: min. 1200 meter</p>",
 			"book":"Book now"
 		},
 
 		"gift":{
 			"heading":"Gift Card",
-			"desc":"A Gift Card for a Tandem flight is a special present for any occasion. Our Gift Card is availible for the Panorama Flight, Thermal Flight and for our extras.",
+			"desc":"A Gift Card for a Tandem flight is a special present for any occasion. Our Gift Card is availible for the Classic Flight, Classic PLUS Flight and for our extras.",
 			"book":"Order now"
 		},
-
+		"whatWeOffer": {
+			"heading": "What do we offer?",
+			"notIncluded": "* The price does not include: Lift ticket",
+			"list": "<li>Experienced, state-certified tandem pilots</li><li>Latest & safest equipment</li><li>Sky-42 shuttle bus directly to Schmittenhöhebahn</li><li>Detailed briefing before takeoff</li><li>Photos/video in high quality</li><li>Opportunity to steer the paraglider yourself if desired</li><li>On request, we offer the extra adrenaline kick</li><li>Decide during the flight, to enjoy the longer thermal flight</li><li>Liability insurance</li><li>All fees for take-off and landing</li><li>After-flight drink on our Sky-42 terrace</li>"
+		},
 		"info":"<i class='fa fa-info-circle' aria-hidden='true' ></i> More Information"
 	},
 

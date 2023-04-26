@@ -27,25 +27,31 @@
 
 	"flights":{
 		"panorama":{
-			"heading":"Panoramaflug",
-			"duration":"<i class='fa fa-fw fa-clock-o' aria-hidden='true'></i>Flugdauer:  ca. 20 Minuten",
+			"heading":"Classic",
+			"duration":"<i class='fa fa-fw fa-clock-o' aria-hidden='true'></i>Flugzeit:  15 - 30 Minuten",
+			"description": "Ist immer zu unseren Buchungszeiten möglich. Wir starten vom Gipfel der Schmittenhöhe in 2000m und gleiten hinunter zu unserem Landeplatz direkt an unserem Sky-42 Tandem Center.",
 			"altitude":"<i class='fa fa-fw fa-arrows-v' aria-hidden='true'></i>Höhendifferenz: 1200 Meter</p>",
 			"book":"Jetzt Buchen"
 		},
 
 		"thermal":{
-			"heading":"Thermikflug",
-			"duration":"<i class='fa fa-fw fa-clock-o' aria-hidden='true'></i>Flugdauer: ca. 40 Minuten",
+			"heading":"Classic PLUS",
+			"duration":"<i class='fa fa-fw fa-clock-o' aria-hidden='true'></i>Flugzeit: 30 - 40 Minuten",
+			"description": "Wir nutzen die Thermik und haben dadurch eine län- gere Flugzeit und eine bessere Aussicht aus größerer Höhe, je nach Thermikqualität.",
 			"altitude":"<i class='fa fa-fw fa-arrows-v' aria-hidden='true'></i>Höhendifferenz: min. 1200 Meter</p>",
 			"book":"Jetzt Buchen"
 		},
 
 		"gift":{
 			"heading":"Gutschein",
-			"desc":"Ein Gutschein für einen Tandemflug ist immer ein besonderes Geschenk für jede Gelegenheit. Unser Gutschein ist für einen Panoramaflug, Thermikflug und auch für unsere Extras erhältlich.",
+			"desc":"Ein Gutschein für einen Tandemflug ist immer ein besonderes Geschenk für jede Gelegenheit. Unser Gutschein ist für einen Classic Flug, Classic PLUS Flug und auch für unsere Extras erhältlich.",
 			"book":"Jetzt Bestellen"
 		},
-
+		"whatWeOffer": {
+			"heading": "Was bieten wir dir?",
+			"notIncluded": "* Im Preis nicht enthalten: Liftticket",
+			"list": "<li>Erfahrene, staatlich geprüfte Tandem-Piloten</li><li>Neueste & sichere Ausrüstung</li><li>Sky-42 Shuttlebus direkt zur Schmittenhöhebahn</li><li>Ausführliche Einweisung vor dem Start</li><li>Fotos/Video in hoher Qualität</li><li>Wer möchte, darf gerne einmal selbst steuern</li><li>Auf Wunsch bieten wir den extra Adrenalinkick</li><li>Während des Fluges kannst du entscheiden, den längeren Thermikflug zu genießen</li><li>Haftpflichtversicherung</li><li>Sämtliche Gebühren für Start und Landung</li><li>After-Flight-Getränk auf unserer Sky-42 Flieger-Terrasse</li>"
+		},
 		"info":"<i class='fa fa-info-circle' aria-hidden='true'></i> Mehr Informationen"
 	},
 
@@ -127,8 +133,8 @@
 
 	"book":{
 		"gift":{
-			"p":"Gutschein Panoramaflug",
-			"t":"Gutschein Thermikflug"
+			"p":"Gutschein Classic",
+			"t":"Gutschein Classic Plus"
 		}
 	}
 
