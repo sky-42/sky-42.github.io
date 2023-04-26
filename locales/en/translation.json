@@ -28,7 +28,7 @@
 	"flights":{
 		"panorama":{
 			"heading":"Classic",
-			"duration":"<i class='fa fa-fw fa-clock-o' aria-hidden='true'></i>Flight duration: about 20 minutes",
+			"duration":"<i class='fa fa-fw fa-clock-o' aria-hidden='true'></i>Flight duration: 15 - 30 minutes",
 			"description": "Always possible at our booking times. We start from the top of the Schmittenhöhe in 2000m and glide down to our landing site directly at our Sky-42 Tandem Center.",
 			"altitude":"<i class='fa fa-fw fa-arrows-v' aria-hidden='true'></i>Hight differnce: 1200 meter</p>",
 			"book":"Book now"
@@ -36,7 +36,7 @@
 
 		"thermal":{
 			"heading":"Classic PLUS",
-			"duration":"<i class='fa fa-fw fa-clock-o' aria-hidden='true'></i>Flight duration: about 40 minutes",
+			"duration":"<i class='fa fa-fw fa-clock-o' aria-hidden='true'></i>Flight duration: 30 - 40 minutes",
 			"description": "We take advantage of the thermals and thus have a longer flight time and a better view from a higher altitude, depending on the quality of the thermals.",
 			"altitude":"<i class='fa fa-fw fa-arrows-v' aria-hidden='true'></i>Hight differnce: min. 1200 meter</p>",
 			"book":"Book now"
