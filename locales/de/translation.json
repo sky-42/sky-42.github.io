@@ -37,7 +37,7 @@
 		"thermal":{
 			"heading":"Classic PLUS",
 			"duration":"<i class='fa fa-fw fa-clock-o' aria-hidden='true'></i>Flugzeit: 30 - 40 Minuten",
-			"description": "Wir nutzen die Thermik und haben dadurch eine län- gere Flugzeit und eine bessere Aussicht aus größerer Höhe, je nach Thermikqualität.",
+			"description": "Wir nutzen die Thermik und haben dadurch eine längere Flugzeit und eine bessere Aussicht aus größerer Höhe, je nach Thermikqualität.",
 			"altitude":"<i class='fa fa-fw fa-arrows-v' aria-hidden='true'></i>Höhendifferenz: min. 1200 Meter</p>",
 			"book":"Jetzt Buchen"
 		},
