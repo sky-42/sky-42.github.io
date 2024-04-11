@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" type="text/css" href="css/sky-42.css">
+    <!-- Favicon -->
+    <link rel="favicon" href="img/logo.png">
+
+    <script type="text/javascript">
+      (function () {
+        var script = document.createElement("script");
+        script.src = "https://app.outdoor-organizer.com/ooc/build/oc-calendar.js";
+        script.async = 1;
+        document.head.appendChild(script);
+      })();
+    </script>
+
+    <style>
+      .booking {
+        margin-top: 180px;
+        margin-bottom: 100px;
+      }
+
+      .navbar-booking {
+        margin: 0 auto;
+      }
+    </style>
+
+  </head>
+  <body>
+        <!-- Navigation -->
+        <nav class="navbar navbar-booking navbar-toggleable-md navbar-light bg-faded fixed-top container">
+          <!-- Toggler -->
+          <button class="navbar-toggler navbar-toggler-right" type="button">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <!-- Brand -->
+          <a class="navbar-brand page-scroll" href="#page-top">
+            <img class="img-fluid logo" src="img/logo.svg" onerror="this.src='logo.png'; this.onerror=null;" alt="Our Logo">
+          </a>
+        </nav>
+
+    <section class="booking">
+      <div class="container">
+        <oc-calendar data-client-id="db8ee1d5-3473-447a-b06b-5e2712fb78b0" data-language="en" data-offer-ids='["1dbd4704-c125-4b7c-8bf6-88c005bda036"]'></oc-calendar>  
+      </div>
+    </section>
+
+
+    <!-- jQuery, Tether, Bootstrap JS-->
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
+    <!-- jQuery easing -->
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.4.1/jquery.easing.min.js"></script>
+    <!-- i18next -->
+    <script type="text/javascript" src="./js/i18next.min.js"></script>
+    <!-- Custom JS-->
+    <script type="text/javascript" src="js/sky-42.js"></script>
+  </body>
+</html>
